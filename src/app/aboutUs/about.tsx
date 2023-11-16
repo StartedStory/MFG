@@ -42,21 +42,29 @@ export default function About() {
       className="grid mb-32 bg-white py-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-7xl mx-auto "
     >
       {/* Text stuffs */}
-      <div className="flex flex-col space-y-4  container ">
-        <div className="mt-10 flex justify-center md:justify-start items-end gap-3 text-secondary">
+      <div className="flex flex-col space-y-4 container ml-10">
+        <div className="mt-2 flex justify-center md:justify-start items-end gap-3 text-secondary">
           <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
-          <h2 className="uppercase  font-bold">ABOUT US</h2>
+          <h2 className="uppercase font-Poppins font-bold">ABOUT US</h2>
         </div>
         <div id="text" className="">
-          <h3 className="text-left font-bold text-3xl max-w-sm">
-            Elevating glass innovation globally
+          <h3 className="text-left font-bold font-Montserrat text-5xl">
+            Elevating glass innovations globally
           </h3>
-          <p className="text-gray-600 mt-3">
-            At Mediterranean Float Glass (MFG), we have established ourselves as
-            a leader in the glass industry, offering an extensive and diverse
-            range of high-quality glass products. With an unwavering commitment
-            to excellence, we are committed to meeting to the demands of
-            national and international markets.
+          <p className="text-gray-600 mt-10 text-lg font-Poppins leading-8">
+            Mediterranean Float Glass (MFG SPA), a subsidiary of the CEVITAL
+            group, was created in 2007 and is led by a team of young talents
+            dedicated to progress and development. Today, MFG is one of Africa's
+            leading glass producers. Located in Arbâa, Wilaya of Blida, just 32
+            km from the port of Algiers, the head office and factory cover an
+            area of ​​30 hectares.
+          </p>
+          <p className="text-gray-600 mt-10 text-lg font-Poppins leading-8">
+            In its first year of existence, MFG transformed Algeria from an
+            exclusive importer of flat glass to an exporter, satisfying more
+            than 90% of local demand. Beyond Algeria, MFG serves international
+            markets, particularly in the Maghreb and Southern Europe, with
+            notable expansion thanks to a second float line in 2017.
           </p>
         </div>
 
@@ -75,7 +83,7 @@ export default function About() {
                     className="bg-primary rounded-full p-3"
                   ></Image>
                 </div>
-                <span className="text-[#242424] text-xl font-semibold uppercase">
+                <span className="text-buttonColor font-Poppins text-2xl font-bold uppercase">
                   QUALITY
                 </span>
               </div>
@@ -91,7 +99,7 @@ export default function About() {
                     className="bg-primary rounded-full p-3"
                   ></Image>
                 </div>
-                <span className="text-[#242424] text-xl font-semibold uppercase">
+                <span className="text-buttonColor font-Poppins text-2xl font-bold uppercase">
                   BUILDING
                 </span>
               </div>
@@ -107,7 +115,7 @@ export default function About() {
                     className="bg-primary rounded-full p-3"
                   ></Image>
                 </div>
-                <span className="text-[#242424] text-xl font-semibold uppercase">
+                <span className="text-buttonColor font-Poppins text-2xl font-bold uppercase">
                   EXPORT
                 </span>
               </div>
@@ -129,7 +137,7 @@ export default function About() {
                       className="bg-primary rounded-full p-4"
                     ></Image>
                   </div>
-                  <span className="text-[#242424] text-xl font-semibold uppercase">
+                  <span className="text-buttonColor font-Poppins text-2xl font-bold uppercase">
                     QUALITY
                   </span>
                 </div>
@@ -145,7 +153,7 @@ export default function About() {
                       className="bg-primary rounded-full p-4"
                     ></Image>
                   </div>
-                  <span className="text-[#242424] text-xl font-semibold uppercase">
+                  <span className="text-buttonColor font-Poppins text-2xl font-bold uppercase">
                     BUILDING
                   </span>
                 </div>
@@ -161,27 +169,13 @@ export default function About() {
                       className="bg-primary rounded-full p-4"
                     ></Image>
                   </div>
-                  <span className="text-[#242424] text-xl font-semibold uppercase">
+                  <span className="text-buttonColor font-Poppins text-2xl font-bold uppercase">
                     EXPORT
                   </span>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        {/* Button */}
-        <div className="mx-2 py-6">
-          <button className="group relative bg-secondary hover:bg-[#0e7ceb] py-3 px-6 text-white outline-none  focus:bg-secondary">
-            <span
-              className="absolute -start-2 -top-2 block h-5 w-5 border-s-4 border-t-4 border-secondary group-hover:border-[#0e7ceb] group-focus:border-[#0e7ceb]"
-              aria-hidden="true"
-            ></span>
-            <span className="uppercase font-bold">Read more</span>
-            <span
-              className="absolute -bottom-2 -end-2 block h-5 w-5 rotate-180 border-s-4 border-t-4 border-secondary group-hover:border-[#0e7ceb] group-focus:border-secondary"
-              aria-hidden="true"
-            ></span>
-          </button>
         </div>
       </div>
       {/* Image section */}
@@ -190,25 +184,25 @@ export default function About() {
           <Image
             src="/assets/img/about2.png"
             alt="Building"
-            width={300}
-            height={300}
+            width={505}
+            height={505}
             className="absolute z-20 "
           />
           <div>
             <Image
               src="/assets/img/about1.png"
               alt="Building"
-              width={300}
-              height={300}
-              className="absolute z-40 mx-40 my-40 w-72 "
+              width={386}
+              height={386}
+              className="absolute z-40 ml-52 mt-64"
             />
             <div>
               <Image
                 src="/assets/img/dots.png"
                 alt="Building"
-                width={400}
-                height={400}
-                className="absolute mx-28 mt-[13rem] w-80"
+                width={420}
+                height={420}
+                className="absolute ml-36 mt-80"
               />
             </div>
           </div>

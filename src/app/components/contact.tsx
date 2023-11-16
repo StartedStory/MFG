@@ -3,26 +3,26 @@
 export default function contact() {
   return (
     <div className="relative">
-             <div
-          className="z-0 absolute min-h-full w-full left-0 top-0 bg-cover"
-          style={{
-            backgroundImage: "url('/assets/img/backgroundContact.png')",
-          }}
-        ></div>
+      <div
+        className="z-0 absolute min-h-full w-full left-0 top-0 bg-cover"
+        style={{
+          backgroundImage: "url('/assets/img/backgroundContact.png')",
+        }}
+      ></div>
 
       <div id="contact-wrapper" className="z-50 py-20 relative">
         <div className="  flex justify-center items-end gap-3 text-secondary">
           <hr className="mb-1 border-b border-secondary w-12"></hr>
-          <h2 className="uppercase font-bold ">Contactez Nouz</h2>
+          <h2 className="uppercase font-bold ">Contact Nouz</h2>
         </div>
         <div id="text" className="flex justify-center">
           <h3 className="text-center text-4xl max-w-sm font-bold">
-            Connectons-nous
+            Let's connect
           </h3>
         </div>
         <div className="grid gird-cols-1 lg:grid-cols-2 max-w-7xl mx-auto z-50">
           <div id="form" className="m-12">
-            <h2 className="text-2xl mb-8 font-bold ">Envoyer le message</h2>
+            <h2 className="text-2xl mb-8 font-bold ">Send the message</h2>
             <form className="space-y-4">
               <input
                 name="name"
@@ -36,11 +36,11 @@ export default function contact() {
               ></input>
               <input
                 name="subject"
-                placeholder="Sujet"
+                placeholder="Subject"
                 className="pl-5 hover:border-secondary focus:outline-none p-4 focus:border-secondary bg-white h-12 border-gray-300 border w-full"
               ></input>
               <textarea
-                placeholder="Vitre Message"
+                placeholder="Window Message"
                 name="message"
                 className="border hover:border-secondary focus:outline-none p-4 focus:border-secondary h-56 w-full border-gray-300 resize-none"
               ></textarea>
@@ -51,9 +51,7 @@ export default function contact() {
                     className="absolute -start-2 -top-2 block h-5 w-5 border-s-4 border-t-4 border-secondary group-hover:border-[#0e7ceb] group-focus:border-[#0e7ceb]"
                     aria-hidden="true"
                   ></span>
-                  <span className="uppercase font-bold">
-                    Envoyer Le message
-                  </span>
+                  <span className="uppercase font-bold">Send the message</span>
                   <span
                     className="absolute -bottom-2 -end-2 block h-5 w-5 rotate-180 border-s-4 border-t-4 border-secondary group-hover:border-[#0e7ceb] group-focus:border-secondary"
                     aria-hidden="true"
@@ -64,7 +62,7 @@ export default function contact() {
           </div>
           <address id="details" className="mt-10 lg:mt-4 mx-12 space-y-8">
             <h2 className="text-2xl mb-8 lg:mt-8 font-bold not-italic ">
-              Détails du contact
+              Contact details
             </h2>
 
             <div id="address" className="flex items-center">
@@ -75,7 +73,7 @@ export default function contact() {
               </div>
               <div className="flex flex-col mx-3 my-2">
                 <div className="font-medium text-secondary not-italic ">
-                  Notre adresse
+                  Our adress
                 </div>
                 <a
                   target="_blank"
@@ -95,7 +93,7 @@ export default function contact() {
               </div>
               <div className="flex flex-col mx-3 my-2">
                 <div className="font-medium text-secondary not-italic ">
-                  Téléphone
+                  Phone
                 </div>
                 <a
                   target="_blank"
@@ -151,7 +149,7 @@ export default function contact() {
               </div>
               <div className="flex flex-col mx-3 my-2">
                 <div className="font-medium text-secondary not-italic ">
-                  Servicé Marché Local
+                  Served Local Market
                 </div>
                 <a
                   target="_blank"
@@ -177,7 +175,7 @@ export default function contact() {
               </div>
               <div className="flex flex-col mx-3 my-2">
                 <div className="font-medium text-secondary not-italic ">
-                  Servicé Marché Export
+                  Export Market Service
                 </div>
                 <a
                   target="_blank"
@@ -205,8 +203,6 @@ export default function contact() {
           </address>
         </div>
       </div>
-
- 
     </div>
   );
 }

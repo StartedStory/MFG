@@ -19,37 +19,37 @@ import "swiper/css/scrollbar";
 export default function Feedbacks() {
   const [highlightedIndex, setHighlightedIndex] = useState(0);
   const [swiper, setSwiper] = useState<Swiper | null>(null); // Initialize swiper as a state variable
- 
+
   const logoImages = [
     "/assets/img/feedback-orimex-preview.png",
     "/assets/img/feedback-oxo.png",
   ];
 
   useEffect(() => {
-     // Configure Swiper
-  const swiperParams: SwiperOptions = {
-    slidesPerView: 1,
-    spaceBetween: 2,
-    modules: [Navigation, Pagination, Autoplay],
-    effect: "flip",
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-    },
-
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    autoplay: {
-      delay: 9000,
-    },
-    on: {
-      slideChange: function () {
-        setHighlightedIndex(highlightedIndex);
+    // Configure Swiper
+    const swiperParams: SwiperOptions = {
+      slidesPerView: 1,
+      spaceBetween: 2,
+      modules: [Navigation, Pagination, Autoplay],
+      effect: "flip",
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
       },
-    },
-  };
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 9000,
+      },
+      on: {
+        slideChange: function () {
+          setHighlightedIndex(highlightedIndex);
+        },
+      },
+    };
 
     const swiper = new Swiper(".swiper", swiperParams);
     setSwiper(swiper);
@@ -68,10 +68,10 @@ export default function Feedbacks() {
       >
         <div className="mt-10 flex justify-center md:justify-start items-end gap-3 text-secondary">
           <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
-          <h2 className="uppercase  font-bold">Témoignage</h2>
+          <h2 className="uppercase  font-bold">Testimony</h2>
         </div>
         <h3 className="text-center text-3xl max-w-lg font-bold text-black">
-          Commentaires de nos clients satisfait
+          Feedback from our satisfied customers
         </h3>
       </div>
       <div id="feedbacks" className="max-w-7xl flex mx-auto justify-center">
@@ -80,14 +80,14 @@ export default function Feedbacks() {
             <div className="swiper-slide  flex-col flex justify-center items-center my-10 space-y-8">
               <div id="feedback-1" className="flex justify-center">
                 <p className="text-center max-w-xl">
-                  Des produits de qualité, des délais de livraison courts, une
-                  équipe qualifiée, le professionnalisme de MFG nous a permis de
-                  mener à bien l’ensemble de nos projets.
+                  Quality products, short delivery times, a qualified team, the
+                  professionalism of MFG allowed us to successfully complete all
+                  of our projects.
                 </p>
               </div>
               <div id="customer-name" className="flex flex-col items-center">
                 <span className="uppercase font-medium">Oxxo</span>
-                <span className="text-primary font-bold">Cliente</span>
+                <span className="text-primary font-bold">Customer</span>
               </div>
               <div
                 id="customer-logo"
@@ -113,16 +113,16 @@ export default function Feedbacks() {
               </div>
             </div>
             <div className="swiper-slide flex-col flex justify-center items-center my-10 space-y-8">
-            <div id="feedback-2" className="flex justify-center">
+              <div id="feedback-2" className="flex justify-center">
                 <p className="text-center max-w-xl">
-                  Des produits de qualité, des délais de livraison courts, une
-                  équipe qualifiée, le professionnalisme de MFG nous a permis de
-                  mener à bien l’ensemble de nos projets.
+                  Quality products, short delivery times, a qualified team, the
+                  professionalism of MFG allowed us to successfully complete all
+                  of our projects.
                 </p>
               </div>
               <div id="customer-name" className="flex flex-col items-center">
                 <span className="uppercase font-medium">ORIMEX</span>
-                <span className="text-primary font-bold">Cliente</span>
+                <span className="text-primary font-bold">Customer</span>
               </div>
               <div
                 id="customer-logo"

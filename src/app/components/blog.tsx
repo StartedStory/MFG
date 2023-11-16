@@ -3,19 +3,19 @@ import Image from "next/image";
 export default function Blog() {
   return (
     <div className="flex flex-col">
-      <div
-        id="text"
-        className=" space-y-6 items-center  flex flex-col"
-      >
+      <div id="text" className=" space-y-6 items-center  flex flex-col">
         <div className="mt-10 flex justify-center md:justify-start items-end gap-3 text-secondary">
           <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
-          <h2 className="uppercase  font-bold">Actualité</h2>
+          <h2 className="uppercase  font-bold">News</h2>
         </div>
         <h3 className="text-center md:text-left text-3xl max-w-lg font-bold text-black">
-          Nos dernières nouvelles
+          Our latest news
         </h3>
       </div>
-      <div id="entries" className="grid grid-cols-1 lg:grid-cols-3 py-20 pb-40 gap-12 lg:gap-8 mx-auto max-w-lg lg:max-w-max">
+      <div
+        id="entries"
+        className="grid grid-cols-1 lg:grid-cols-3 py-20 pb-40 gap-12 lg:gap-8 mx-auto max-w-lg lg:max-w-max"
+      >
         <div className="flex flex-col items-center justify-center mx-auto max-w-sm">
           <Image
             alt="blog 1"
@@ -37,18 +37,18 @@ export default function Blog() {
           </div>
           <div className="flex flex-col w-full px-5  space-y-4">
             <h2 className="text-xl font-bold pt-4">
-              MFG décroche le premier prix pour son produit innovant “MEDICLEAN”
+              MFG wins first prize for its innovative product “MEDICLEAN”
             </h2>
             <p>
-              MFG (Mediterranean Float Glass) a participé au concours INNOVBAT
-              21018 et a remporté le 1er prix – Sadok Stiti –...
+              MFG (Mediterranean Float Glass) participated in the INNOVBAT 21018
+              competition and won 1st prize – Sadok Stiti –...
             </p>
             <a
               className="text-secondary underline-offset-4	font-semibold underline decoration-[#add2f8]"
               href="#"
               target="_blank"
             >
-              Continuer la lecture
+              Continue reading
             </a>
           </div>
         </div>
@@ -73,18 +73,18 @@ export default function Blog() {
           </div>
           <div className="flex flex-col w-full px-5  space-y-4">
             <h2 className="text-xl font-bold pt-4">
-              MFG décroche le premier prix pour son produit innovant “MEDICLEAN”
+              MFG wins first prize for its innovative product “MEDICLEAN”
             </h2>
             <p>
-              MFG (Mediterranean Float Glass) a participé au concours INNOVBAT
-              21018 et a remporté le 1er prix – Sadok Stiti –...
+              MFG (Mediterranean Float Glass) participated in the INNOVBAT 21018
+              competition and won 1st prize – Sadok Stiti –...
             </p>
             <a
               className="text-secondary underline-offset-4	font-semibold underline decoration-[#add2f8]"
               href="#"
               target="_blank"
             >
-              Continuer la lecture
+              Continue reading
             </a>
           </div>
         </div>
@@ -109,18 +109,18 @@ export default function Blog() {
           </div>
           <div className="flex flex-col w-full px-5  space-y-4">
             <h2 className="text-xl font-bold pt-4">
-              MFG décroche le premier prix pour son produit innovant “MEDICLEAN”
+              MFG wins first prize for its innovative product “MEDICLEAN”
             </h2>
             <p>
-              MFG (Mediterranean Float Glass) a participé au concours INNOVBAT
-              21018 et a remporté le 1er prix – Sadok Stiti –...
+              MFG (Mediterranean Float Glass) participated in the INNOVBAT 21018
+              competition and won 1st prize – Sadok Stiti –...
             </p>
             <a
               className="text-secondary underline-offset-4	font-semibold underline decoration-[#add2f8]"
               href="#"
               target="_blank"
             >
-              Continuer la lecture
+              Continue reading
             </a>
           </div>
         </div>

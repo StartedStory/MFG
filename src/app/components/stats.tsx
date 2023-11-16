@@ -21,7 +21,7 @@ export default function stats() {
             <div className="flex flex-col text-4xl font-bold text-sky-500 mt-8">
               <CountUp end={850} duration={7}></CountUp>
               <span className="text-base font-semibold text-white text-center">
-                Collaborateurs
+                Collaborators
               </span>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function stats() {
             <div className="flex flex-col text-4xl font-bold text-sky-500 mt-8">
               <CountUp end={14} duration={10}></CountUp>
               <span className="text-base font-semibold text-white text-center">
-                Ans D&quot;expérience
+                Years of Experience
               </span>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function stats() {
             <div className="flex flex-col text-4xl font-bold text-sky-500 mt-8">
               <CountUp end={173162} duration={5}></CountUp>
               <span className="text-base font-semibold text-white text-center">
-                Tonnes Vendues en 2019
+                Tons Sold in 2019
               </span>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function stats() {
             <div className="flex flex-col text-4xl font-bold text-sky-500 mt-8">
               <CountUp end={52} duration={10}></CountUp>
               <span className="text-base font-semibold text-white text-center">
-                Formations Au profit des collaborateurs
+                Training for the benefit of employees
               </span>
             </div>
           </div>
