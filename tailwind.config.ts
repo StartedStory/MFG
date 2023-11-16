@@ -21,12 +21,14 @@ const config: Config = {
         buttonColor: "#242424",
         productionColorTo: "#0054A7",
         productionColorVia: "#00B0F0",
+        essentialBackground: "#F8F9FA",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "about-landing": "url('/assets/img/about/landing.png')",
+        "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
       },
       marker: {
         long: {
@@ -49,6 +51,9 @@ const config: Config = {
         "300": "300px",
         "32": "32px",
       },
+      opacity: {
+        "2.5": "0.025"
+      }
     },
   },
   plugins: [],
