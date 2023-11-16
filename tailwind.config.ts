@@ -29,6 +29,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "about-landing": "url('/assets/img/about/landing.png')",
         "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
+        "states-landing": "url('/assets/img/states/states_background.png')",
       },
       marker: {
         long: {
@@ -45,15 +46,18 @@ const config: Config = {
       },
       width: {
         "752": "752px",
+        "972": "972px",
       },
       height: {
+        "784": "784px",
         "700": "700px",
+        "554": "554px",
         "300": "300px",
         "32": "32px",
       },
       opacity: {
-        "2.5": "0.025"
-      }
+        "2.5": "0.025",
+      },
     },
   },
   plugins: [],
