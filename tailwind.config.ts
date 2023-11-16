@@ -17,13 +17,19 @@ const config: Config = {
         primary: "rgb(var(--color-primary) / <alpha-value>)",
         secondary: "rgb(var(--color-secondary) / <alpha-value>)",
         landingImgColor: "#000000",
+        aboutUs: "#4D4D4D",
         buttonColor: "#242424",
+        productionColorTo: "#0054A7",
+        productionColorVia: "#00B0F0",
+        essentialBackground: "#F8F9FA",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "about-landing": "url('/assets/img/about/landing.png')",
+        "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
+        "states-landing": "url('/assets/img/states/states_background.png')",
       },
       marker: {
         long: {
@@ -35,9 +41,22 @@ const config: Config = {
           marginLeft: "-1.5em", // Match the width to align the marker
         },
       },
+      lineHeight: {
+        productionLineHeight: "56px",
+      },
+      width: {
+        "752": "752px",
+        "972": "972px",
+      },
       height: {
+        "784": "784px",
         "700": "700px",
+        "554": "554px",
         "300": "300px",
+        "32": "32px",
+      },
+      opacity: {
+        "2.5": "0.025",
       },
     },
   },
