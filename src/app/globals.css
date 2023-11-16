@@ -16,6 +16,18 @@
   }
 }
 
+@layer base {
+  @font-face {
+    font-family: "Montserrat";
+    src: url(../../public/assets/fonts/Montserrat-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url(../../public/assets/fonts/Poppins-Regular.ttf);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

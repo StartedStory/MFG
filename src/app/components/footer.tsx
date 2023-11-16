@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="flex flex-col items-center relative">
-        <div
+      <div
         className="absolute z-0 h-full w-full left-0 top-0  bg-cover"
         style={{ backgroundImage: "url('/assets/img/footerBg.png')" }}
       ></div>
@@ -14,11 +14,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 py-10 gap-10">
           <div className="flex flex-col w-full  px-20 space-y-4">
             <span className="text-white text-4xl font-bold">
-              Restez Toujours Connecté
+              Always Stay Connected
             </span>
             <p className="text-white max-w-md">
-              Restez informé avec des mises à jour exclusives. Abonnez-vous à
-              notre newsletter pour les dernières nouvelles et informations.
+              Stay informed with exclusive updates. Subscribe to our newsletter
+              for the latest news and information.
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function Footer() {
               <input
                 type="submit"
                 className="py-2 bg-secondary px-4 text-white"
-                value={"S'abonner"}
+                value={"Subscribe"}
               ></input>
             </form>
           </div>
@@ -51,9 +51,8 @@ export default function Footer() {
           ></Image>
           <div className="space-y-3">
             <p className="">
-              Verre de qualité mondiale. Exportation 70%, Europe, Tunisie,
-              Afrique. Certifiée ISO. Découvrez notre gamme, innovation,
-              dévouement.
+              World quality glass. Export 70%, Europe, Tunisia, Africa. ISO
+              certified. Discover our range, innovation, dedication.
             </p>
             <div className="flex flex-row gap-2">
               <div className=" h-6 bg-primary  w-6 flex items-center justify-center">
@@ -70,30 +69,30 @@ export default function Footer() {
         </div>
         <div id="footer-menu-1" className="md:px-5">
           <div className="text-xl text-white font-bold">
-            <h2>Liens Rapides</h2>
+            <h2>Quick Links</h2>
             <div className=" border-b-2 border-primary w-8 pb-3 mb-4"></div>
           </div>
           <ul className="font-semibold text-white">
-            <li>Accueil</li>
-            <li>Notre Société</li>
-            <li>Nos Produits</li>
-            <li>Actualités</li>
-            <li>Outils et téléchargement</li>
-            <li>Carrière</li>
+            <li>Welcome</li>
+            <li>Our society</li>
+            <li>Our Products</li>
+            <li>News</li>
+            <li>Tools and download</li>
+            <li>Career</li>
             <li>Contact</li>
           </ul>
         </div>
         <div id="footer-menu-2" className="md:px-5">
           <div className="text-xl text-white font-bold">
-            <h2>Liens Utiles</h2>
+            <h2>Useful links</h2>
             <div className=" border-b-2 border-primary w-8 pb-3 mb-4"></div>
           </div>
           <ul className="font-semibold text-white">
-            <li>Politique des Services</li>
-            <li>Conditions Générales </li>
-            <li>Accord en Ligne</li>
-            <li>Politique de Confidentialité</li>
-            <li>Problème de Copyright</li>
+            <li>Services Policy</li>
+            <li>Terms and conditions</li>
+            <li>Online Agreement</li>
+            <li>Privacy Policy</li>
+            <li>Copyright problem</li>
           </ul>
         </div>
         <div id="contact-mini" className="md:px-5">
@@ -105,7 +104,7 @@ export default function Footer() {
             <div className="flex flex-row items-center gap-4 text-white">
               <i className="fa fa-phone text-primary fa-lg"></i>
               <div className="flex flex-col">
-                <span>Téléphone</span>
+                <span>Phone</span>
                 <a>+213 21 448 644</a>
               </div>
             </div>
@@ -120,15 +119,20 @@ export default function Footer() {
               <i className="fa fa-map-marker text-primary fa-lg"></i>
               <div className="flex flex-col">
                 <span>Notra adresse</span>
-                <a className="hover:text-primary transition-all duration-200" href="https://www.google.com/maps/place/Mediterranean+Float+Glass/@36.5860674,3.1697604,19z/data=!4m10!1m2!2m1!1zMjksIFJvdXRlIGRlIE1lZnRhaCDigJMgbOKAmUFyYmHDoiDigJMgMDkzMDAgVy4gQmxpZGE!3m6!1s0x12b22aecb27883c9:0xbd00be4555591d53!8m2!3d36.5864023!4d3.1718132!15sCjUyOSwgUm91dGUgZGUgTWVmdGFoIOKAkyBs4oCZQXJiYcOiIOKAkyAwOTMwMCBXLiBCbGlkYZIBDmdsYXNzX2luZHVzdHJ54AEA!16s%2Fg%2F11byyjjl1y?entry=ttu">29, Route de Meftah – l’Arbaâ – 09300 W. Blida</a>
+                <a
+                  className="hover:text-primary transition-all duration-200"
+                  href="https://www.google.com/maps/place/Mediterranean+Float+Glass/@36.5860674,3.1697604,19z/data=!4m10!1m2!2m1!1zMjksIFJvdXRlIGRlIE1lZnRhaCDigJMgbOKAmUFyYmHDoiDigJMgMDkzMDAgVy4gQmxpZGE!3m6!1s0x12b22aecb27883c9:0xbd00be4555591d53!8m2!3d36.5864023!4d3.1718132!15sCjUyOSwgUm91dGUgZGUgTWVmdGFoIOKAkyBs4oCZQXJiYcOiIOKAkyAwOTMwMCBXLiBCbGlkYZIBDmdsYXNzX2luZHVzdHJ54AEA!16s%2Fg%2F11byyjjl1y?entry=ttu"
+                >
+                  29, Route de Meftah – l’Arbaâ – 09300 W. Blida
+                </a>
               </div>
             </div>
-
-        
           </div>
         </div>
       </div>
-      <div className="z-50 py-6 border-gray-500 border-t-2 w-full text-center text-white font-medium">Copyright 2023, Mediterranean Float Glass MFG. All Rights Reserved</div>
+      <div className="z-50 py-6 border-gray-500 border-t-2 w-full text-center text-white font-medium">
+        Copyright 2023, Mediterranean Float Glass MFG. All Rights Reserved
+      </div>
     </footer>
   );
 }

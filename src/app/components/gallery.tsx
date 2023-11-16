@@ -9,7 +9,7 @@ export default function stats() {
         <div className="flex flex-col justify-center  w-full items-center pb-12">
           <div className="mt-10 flex justify-center items-end gap-3 text-secondary">
             <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
-            <h2 className="uppercase  font-bold">Nos Projets Clés</h2>
+            <h2 className="uppercase  font-bold">Our Key Projects</h2>
           </div>
 
           <div
@@ -17,7 +17,7 @@ export default function stats() {
             className="justify-center flex items-center text-center "
           >
             <h3 className="text-3xl max-w-sm font-bold">
-              Nos projets complets sélectionnés
+              Our selected complete projects
             </h3>
           </div>
         </div>
@@ -25,19 +25,19 @@ export default function stats() {
       <div className="flex w-full flex-col lg:flex-row ">
         <ul className="py-6 font-medium space-y-2 w-96 px-8 lg:px-0">
           <li className="before:content-['—'] before:text-gray-300 text-secondary">
-            <span className="px-2">Intériur</span>
+            <span className="px-2">Interior</span>
           </li>
           <li className="before:content-['—'] before:text-gray-300">
-            <span className="px-2">Extériur</span>
+            <span className="px-2">Exterior</span>
           </li>
           <li className="before:content-['—'] before:text-gray-300">
-            <span className="px-2">Sol</span>
+            <span className="px-2">Ground</span>
           </li>
           <li className="before:content-['—'] before:text-gray-300">
-            <span className="px-2">Industrie</span>
+            <span className="px-2">Industry</span>
           </li>
           <li className="before:content-['—'] before:text-gray-300">
-            <span className="px-2">Marché</span>
+            <span className="px-2">Walk</span>
           </li>
         </ul>
 
@@ -68,7 +68,7 @@ export default function stats() {
                 </svg>
 
                 <p className="test__author font-sm font-medium  text-xl text-center">
-                  Médiathèque de Millau, France
+                  Millau Media Library, France
                 </p>
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function stats() {
                 </svg>
 
                 <p className="test__author font-sm font-medium  text-xl text-center">
-                  Médiathèque de Millau, France
+                  Millau Media Library, France
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function stats() {
                 </svg>
 
                 <p className="test__author font-sm font-medium  text-xl text-center">
-                  Médiathèque de Millau, France
+                  Millau Media Library, France
                 </p>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function stats() {
                 </svg>
 
                 <p className="test__author font-sm font-medium  text-xl text-center">
-                  Médiathèque de Millau, France
+                  Millau Media Library, France
                 </p>
               </div>
             </div>
@@ -196,7 +196,7 @@ export default function stats() {
                 </svg>
 
                 <p className="test__author font-sm font-medium  text-xl text-center">
-                  Médiathèque de Millau, France
+                  Millau Media Library, France
                 </p>
               </div>
             </div>
@@ -228,7 +228,7 @@ export default function stats() {
                 </svg>
 
                 <p className="test__author font-sm font-medium  text-xl text-center">
-                  Médiathèque de Millau, France
+                  Millau Media Library, France
                 </p>
               </div>
             </div>
@@ -260,7 +260,7 @@ export default function stats() {
                 </svg>
 
                 <p className="test__author font-sm font-medium  text-xl text-center">
-                  Médiathèque de Millau, France
+                  Millau Media Library, France
                 </p>
               </div>
             </div>
@@ -291,7 +291,7 @@ export default function stats() {
                 </svg>
 
                 <p className="test__author font-sm font-medium  text-xl text-center">
-                  Médiathèque de Millau, France
+                  Millau Media Library, France
                 </p>
               </div>
             </div>
