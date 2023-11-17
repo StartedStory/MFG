@@ -43,6 +43,7 @@ const config: Config = {
       },
       lineHeight: {
         productionLineHeight: "56px",
+        managementHeight: "60.5px",
       },
       width: {
         "752": "752px",
@@ -54,6 +55,9 @@ const config: Config = {
         "554": "554px",
         "300": "300px",
         "32": "32px",
+      },
+      maxWidth: {
+        "275": "275px",
       },
       opacity: {
         "2.5": "0.025",
