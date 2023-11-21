@@ -36,6 +36,10 @@ const config: Config = {
         "about-landing": "url('/assets/img/about/landing.png')",
         "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
         "states-landing": "url('/assets/img/states/states_background.png')",
+        "technical-background":
+          "url('https://mfg.dz/wp-content/uploads/2017/12/catalogueface.png')",
+        "bim-background":
+          "url('https://mfg.dz/wp-content/uploads/2018/03/bim-img.png')",
       },
       marker: {
         long: {

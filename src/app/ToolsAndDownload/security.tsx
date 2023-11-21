@@ -21,13 +21,7 @@ const Security = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/Dépliant_sécurité.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/D%C3%A9pliant_s%C3%A9curit%C3%A9.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -47,13 +41,7 @@ const Security = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_tech_MEDIPHON.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/fiche_tech_MEDIPHON.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -73,13 +61,7 @@ const Security = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_tech_MEDISNOW.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/fiche_tech_MEDISNOW.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -99,13 +81,7 @@ const Security = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_techMEDILAM_.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/fiche_techMEDILAM_.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">

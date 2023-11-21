@@ -21,13 +21,7 @@ const ThermalInsulation = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/Dépliant-Isolation.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/D%C3%A9pliant-Isolation.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -47,13 +41,7 @@ const ThermalInsulation = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -73,13 +61,7 @@ const ThermalInsulation = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S-T.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S-T.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -99,13 +81,7 @@ const ThermalInsulation = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S-1.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S-1.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
