@@ -16,7 +16,7 @@ const Certifications = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/AgrémenttechniqueATG.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }
