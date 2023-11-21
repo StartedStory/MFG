@@ -47,7 +47,7 @@ export default function Services() {
             <p className="text-center max-w-xs text-lg font-light  mx-12 ">
               The customer is very important, the customer will be followed by
               the customer. Intrepidly from the hospital in the valley and that
-              hospital. I'm sorry.
+              hospital. I&apos;m sorry.
             </p>
             <a
               href=""
@@ -84,7 +84,7 @@ export default function Services() {
             <p className="text-center max-w-xs text-lg font-light  mx-12 ">
               The customer is very important, the customer will be followed by
               the customer. Intrepidly from the hospital in the valley and that
-              hospital. I'm sorry.
+              hospital. I&apos;m sorry.
             </p>
             <a
               href=""
@@ -121,7 +121,7 @@ export default function Services() {
             <p className="text-center max-w-xs text-lg font-light  mx-12 ">
               The customer is very important, the customer will be followed by
               the customer. Intrepidly from the hospital in the valley and that
-              hospital. I'm sorry.
+              hospital. I&apos;m sorry.
             </p>
             <a
               href=""
@@ -157,7 +157,7 @@ export default function Services() {
             <p className="text-center max-w-xs text-lg font-light  mx-12 ">
               The customer is very important, the customer will be followed by
               the customer. Intrepidly from the hospital in the valley and that
-              hospital. I'm sorry.
+              hospital. I&apos;m sorry.
             </p>
             <a
               href=""
@@ -194,7 +194,7 @@ export default function Services() {
             <p className="text-center max-w-xs text-lg font-light  mx-12 ">
               The customer is very important, the customer will be followed by
               the customer. Intrepidly from the hospital in the valley and that
-              hospital. I'm sorry.
+              hospital. I&apos;m sorry.
             </p>
             <a
               href=""
@@ -231,7 +231,7 @@ export default function Services() {
             <p className="text-center max-w-xs text-lg font-light  mx-12 ">
               The customer is very important, the customer will be followed by
               the customer. Intrepidly from the hospital in the valley and that
-              hospital. I'm sorry.
+              hospital. I&apos;m sorry.
             </p>
             <a
               href=""

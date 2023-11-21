@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
         <div id="text" className="flex justify-center">
           <h3 className="text-center text-4xl max-w-sm font-bold">
-            Let's connect
+            Let&apos;s connect
           </h3>
         </div>
         <div className="grid gird-cols-1 lg:grid-cols-2 max-w-7xl mx-auto z-50">
