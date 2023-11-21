@@ -13,11 +13,7 @@ const SolarControl = () => {
           <iframe
             className="w-full h-3/4"
             src={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/10/Dépliant_contrôle-solaire_eng.pdf"
-              ) +
-              "&embedded=true&hl=en"
+              "https://docs.google.com/document/d/14hJn1akXkxYcpSpM0ExgS1Day7edgA--asrf51Lp9Ik/edit?usp=sharing"
             }
           ></iframe>
           <a

@@ -56,7 +56,7 @@ const About = () => {
               Mediterranean Float Glass (MFG SPA), a subsidiary of the CEVITAL
               group, was created in 2007 and is led by a team of young talents
               dedicated to progress and development. Today, MFG is one of
-              Africa's leading glass producers. Located in Arbâa, Wilaya of
+              Africa&apos;s leading glass producers. Located in Arbâa, Wilaya of
               Blida, just 32 km from the port of Algiers, the head office and
               factory cover an area of ​​30 hectares.
             </p>
