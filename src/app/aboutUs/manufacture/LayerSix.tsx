@@ -29,7 +29,7 @@ const LayerSix = () => {
         height={16}
         width={142}
       ></Image>
-      <div className="flex items-center mt-40 -mr-30">
+      <div className="flex items-center mt-M40 -mr-30">
         <Image
           className="w-auto"
           src={"/assets/img/manufacture/RLArrow_1.png"}
