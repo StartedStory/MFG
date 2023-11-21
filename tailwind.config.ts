@@ -25,6 +25,9 @@ const config: Config = {
         manufactureButton: "#F9F9F9",
         toolsLandingColor: "#606060",
         toolsNavColor: "#dadada",
+        toolsTitle: "#EBEBEB",
+        toolsIframe: "#d1d1d1",
+        toolsIframeButton: "#bdd1d0",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -79,6 +82,7 @@ const config: Config = {
         "784": "784px",
         "700": "700px",
         "554": "554px",
+        T400: "400px",
         "300": "300px",
         "32": "32px",
         "60": "60px",

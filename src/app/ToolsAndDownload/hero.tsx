@@ -23,8 +23,9 @@ const Hero = () => {
           ></Image>
         </div>
       </div>
-      <div className="bg-toolsNavColor uppercase font-Montserrat text-productionColorTo pl-32 py-7 -mt-28">
-        Tools and download
+      <div className="flex justify-between bg-toolsNavColor uppercase font-Montserrat text-productionColorTo px-32 py-7 mt-10">
+        <div>Tools and download</div>
+        <div>Welcome {">"} Tools and Download</div>
       </div>
     </div>
   );
