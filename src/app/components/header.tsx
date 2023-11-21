@@ -62,7 +62,7 @@ export default function Header() {
             </li>
             <li className="hover:text-secondary hover:cursor-pointer">News</li>
             <li className="hover:text-secondary hover:cursor-pointer">
-              Tools and download
+              <Link href="/ToolsAndDownload">Tools and download</Link>
             </li>
             <li className="hover:text-secondary hover:cursor-pointer">
               Career

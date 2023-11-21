@@ -37,10 +37,10 @@ const About = () => {
     const swiper = new Swiper(".swiper", swiperParams);
   }, []);
   return (
-    <div className="flex relative">
+    <div className="flex relative mt-12">
       <div
         id="about-section"
-        className="grid mb-32 bg-white px-6 2xl:px-20 py-10 grid-cols-1 lg:grid-cols-2 mx-auto"
+        className="grid bg-white pl-5 pr-20 2xl:px-20 py-10 grid-cols-1 lg:grid-cols-2 mx-auto"
       >
         {/* Text stuffs */}
         <div className="flex flex-col space-y-4 container ml-10">
@@ -52,7 +52,7 @@ const About = () => {
             <h3 className="text-left font-bold font-Montserrat text-3xl xl:text-5xl">
               Elevating glass innovations globally
             </h3>
-            <p className="text-gray-600 mt-10 text-base xl:text-lg font-Poppins leading-8">
+            <p className="text-gray-600 mt-5 xl:mt-10 text-sm xl:text-lg font-Poppins leading-8">
               Mediterranean Float Glass (MFG SPA), a subsidiary of the CEVITAL
               group, was created in 2007 and is led by a team of young talents
               dedicated to progress and development. Today, MFG is one of
@@ -60,7 +60,7 @@ const About = () => {
               Blida, just 32 km from the port of Algiers, the head office and
               factory cover an area of ​​30 hectares.
             </p>
-            <p className="text-gray-600 mt-3 xl:mt-10 text-base xl:text-lg font-Poppins leading-8">
+            <p className="text-gray-600 mt-3 xl:mt-10 text-sm xl:text-lg font-Poppins leading-8">
               In its first year of existence, MFG transformed Algeria from an
               exclusive importer of flat glass to an exporter, satisfying more
               than 90% of local demand. Beyond Algeria, MFG serves international

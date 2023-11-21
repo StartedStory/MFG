@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Essentials = () => {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full mt-32">
       <div className="absolute z-0 left-0 top-0 bg-cover bg-essential-landing w-full h-full opacity-2.5"></div>
       <div className="z-10 bg-essentialBackground opacity-95 w-full h-full"></div>
       <div className="flex px-36 justify-between mb-72">
@@ -12,7 +12,7 @@ const Essentials = () => {
               alt="random"
               width={87}
               height={87}
-              className="w-auto ml-32"
+              className="ml-32"
               src={"/assets/img/essentials/mission.png"}
             ></Image>
             <div className="ml-5 w-2/3">

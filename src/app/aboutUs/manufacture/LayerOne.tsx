@@ -3,7 +3,7 @@ import Image from "next/image";
 const LayerOne = () => {
   return (
     <div className="flex justify-end items-start mr-16">
-      <div className="flex items-center mt-40 -mr-30">
+      <div className="flex items-center mt-M40 -mr-30">
         <div className="w-60 h-60 flex justify-center items-center text-buttonColor font-Poppins text-2xl font-medium leading-8 border-2 border-dashed border-aboutUs rounded-full">
           1
         </div>

@@ -29,7 +29,7 @@ const LayerTen = () => {
         height={16}
         width={142}
       ></Image>
-      <div className="flex items-center mt-40">
+      <div className="flex items-center mt-M40">
         <Image
           className="w-auto"
           src={"/assets/img/manufacture/RLArrow_1.png"}
