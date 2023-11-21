@@ -13,7 +13,11 @@ const SolarControl = () => {
           <iframe
             className="w-full h-3/4"
             src={
-              "https://docs.google.com/document/d/14hJn1akXkxYcpSpM0ExgS1Day7edgA--asrf51Lp9Ik/edit?usp=sharing"
+              "https://docs.google.com/viewer?url=" +
+              encodeURIComponent(
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
+              ) +
+              "&embedded=true&hl=en"
             }
           ></iframe>
           <a
@@ -31,7 +35,7 @@ const SolarControl = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/10/fiche_tech_MEDICLIMA_600-et-700.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }
@@ -51,7 +55,7 @@ const SolarControl = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/10/fiche_tech_MEDICLIMA_700.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }

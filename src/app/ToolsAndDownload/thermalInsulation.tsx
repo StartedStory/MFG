@@ -15,7 +15,7 @@ const ThermalInsulation = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/Dépliant-Isolation.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }
@@ -35,7 +35,7 @@ const ThermalInsulation = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }
@@ -55,7 +55,7 @@ const ThermalInsulation = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S-T.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }
@@ -75,7 +75,7 @@ const ThermalInsulation = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/fiche_tech-MEDISTAR-S-1.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }

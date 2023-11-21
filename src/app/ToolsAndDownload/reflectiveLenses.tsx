@@ -15,7 +15,7 @@ const ReflectiveLenses = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/MEDIREFLECT.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }
@@ -35,7 +35,7 @@ const ReflectiveLenses = () => {
             src={
               "https://docs.google.com/viewer?url=" +
               encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/MFG-Brochure-réflexion.pdf"
+                "http://mfg.dz/wp-content/uploads/2020/09/Politique-QHSE-Fr-23.06.2020.pdf"
               ) +
               "&embedded=true&hl=en"
             }
