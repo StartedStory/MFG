@@ -21,13 +21,7 @@ const ReflectiveLenses = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/MEDIREFLECT.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/MEDIREFLECT.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -47,13 +41,7 @@ const ReflectiveLenses = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/09/MFG-Brochure-réflexion.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/09/MFG-Brochure-r%C3%A9flexion.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">

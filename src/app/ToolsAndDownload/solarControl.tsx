@@ -21,13 +21,7 @@ const SolarControl = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/10/Dépliant_contrôle-solaire_eng.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/10/D%C3%A9pliant_contr%C3%B4le-solaire_eng.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -47,13 +41,7 @@ const SolarControl = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/10/fiche_tech_MEDICLIMA_600-et-700.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/10/fiche_tech_MEDICLIMA_600-et-700.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
@@ -73,13 +61,7 @@ const SolarControl = () => {
             }
           ></iframe>
           <a
-            href={
-              "https://docs.google.com/viewer?url=" +
-              encodeURIComponent(
-                "http://mfg.dz/wp-content/uploads/2017/10/fiche_tech_MEDICLIMA_700.pdf"
-              ) +
-              "&embedded=true&hl=en"
-            }
+            href="http://mfg.dz/wp-content/uploads/2017/10/fiche_tech_MEDICLIMA_700.pdf"
             download
           >
             <button className="text-sm font-Poppins w-full px-24 py-3 mt-1 bg-toolsIframeButton">
