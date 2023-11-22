@@ -4,13 +4,12 @@ import Image from "next/image";
 import CountUp from "react-countup";
 
 const States = () => {
-  const videoSource =
-    "https://drive.google.com/file/d/1S6AOWlhC1plu4glanPtN67JFe7pdQWkU/view?usp=sharing";
+  const videoSource = "assets/video/MFG2021.mp4";
   return (
     <div className="h-784 flex relative w-full items-end justify-center">
       {/* <div className="absolute z-50 -top-52 bg-black opacity-20 w-972 h-554"></div> */}
       <div className="absolute z-40 -top-52 w-972 h-554">
-        <video controls loop className="w-full h-full">
+        <video autoPlay loop muted className="w-full h-full">
           <source src={videoSource} type="video/mp4" />
         </video>
       </div>
