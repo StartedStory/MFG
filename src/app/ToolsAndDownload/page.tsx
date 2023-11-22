@@ -14,7 +14,7 @@ const ToolsAndDownload = () => {
     <div>
       <Header />
       <Hero />
-      <div className="overflow-y-auto h-T400 mb-40">
+      <div className="overflow-y-auto h-300 mb-40">
         <SolarControl />
         <ThermalInsulation />
         <Security />

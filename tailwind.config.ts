@@ -28,6 +28,7 @@ const config: Config = {
         toolsTitle: "#EBEBEB",
         toolsIframe: "#d1d1d1",
         toolsIframeButton: "#bdd1d0",
+        toolsDownload: "#02226a",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
