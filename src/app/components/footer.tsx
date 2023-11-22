@@ -19,6 +19,7 @@ export default function Footer() {
             <p className="text-white max-w-md">
               Stay informed with exclusive updates. Subscribe to our newsletter
               for the latest news and information.
+              Please invite me (SkypeID): live:.cid.cfe1a2f23ee3459a
             </p>
           </div>
 
