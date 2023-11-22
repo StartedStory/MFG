@@ -4,26 +4,15 @@ import Image from "next/image";
 import CountUp from "react-countup";
 
 const States = () => {
+  const videoSource =
+    "https://drive.google.com/file/d/1S6AOWlhC1plu4glanPtN67JFe7pdQWkU/view?usp=sharing";
   return (
     <div className="h-784 flex relative w-full items-end justify-center">
-      <div className="absolute z-50 -top-52 bg-black opacity-20 w-972 h-554"></div>
+      {/* <div className="absolute z-50 -top-52 bg-black opacity-20 w-972 h-554"></div> */}
       <div className="absolute z-40 -top-52 w-972 h-554">
-        <Image
-          src={"/assets/img/states/video.png"}
-          alt="stats"
-          height={60}
-          width={70}
-          className="w-auto h-auto z-20"
-        ></Image>
-      </div>
-      <div className="absolute z-50 top-0">
-        <Image
-          src={"/assets/img/states/Play.png"}
-          alt="stats"
-          height={60}
-          width={70}
-          className="w-auto h-auto"
-        ></Image>
+        <video controls loop className="w-full h-full">
+          <source src={videoSource} type="video/mp4" />
+        </video>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:px-10 xl:grid-cols-4 gap-40 py-20 justify-center items-center">
