@@ -35,6 +35,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "about-landing": "url('/assets/img/about/landing.png')",
+        "tools-download": "url('/assets/img/ToolsAndDownload/office.jpg')",
         "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
         "states-landing": "url('/assets/img/states/states_background.png')",
         "technical-background":
