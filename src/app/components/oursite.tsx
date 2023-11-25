@@ -55,10 +55,7 @@ export default function Oursite() {
           ></Image>
         </div>
 
-        <div
-          className="z-10 h-96 min-h-full w-full left-0 top-0 absolute bg-cover"
-          style={{ backgroundImage: "url('/assets/img/glass-windows.png')" }}
-        ></div>
+        <div className="z-10 h-96 min-h-full w-full left-0 top-0 absolute bg-cover bg-homeImg-three"></div>
       </div>
       <div className="absolute z-10 right-0 inset-y-0 overflow-clip ">
         <svg

@@ -34,6 +34,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        contactImg: "url('/assets/img/backgroundContact.png')",
         "about-landing": "url('/assets/img/about/landing.png')",
         "tools-download": "url('/assets/img/ToolsAndDownload/office.jpg')",
         "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
@@ -42,6 +43,12 @@ const config: Config = {
           "url('https://mfg.dz/wp-content/uploads/2017/12/catalogueface.png')",
         "bim-background":
           "url('https://mfg.dz/wp-content/uploads/2018/03/bim-img.png')",
+        "footerImg-one": "url('/assets/img/footerBg.png')",
+        "footerImg-two": "url('/assets/img/cta.png')",
+        "homeImg-one": "url('/assets/img/layer1.png')",
+        "homeImg-two": "url('/assets/img/hero.png')",
+        "homeImg-three": "url('/assets/img/glass-windows.png')",
+        "homeImg-state": "url('/assets/img/cityservices.jpg')",
       },
       marker: {
         long: {

@@ -3,12 +3,7 @@
 export default function contact() {
   return (
     <div className="relative">
-      <div
-        className="z-0 absolute min-h-full w-full left-0 top-0 bg-cover"
-        style={{
-          backgroundImage: "url('/assets/img/backgroundContact.png')",
-        }}
-      ></div>
+      <div className="z-0 absolute min-h-full w-full left-0 top-0 bg-cover bg-contactImg"></div>
 
       <div id="contact-wrapper" className="z-50 py-20 relative">
         <div className="  flex justify-center items-end gap-3 text-secondary">

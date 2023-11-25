@@ -14,15 +14,13 @@ const ToolsAndDownload = () => {
     <div>
       <Header />
       <Hero />
-      <div className="overflow-y-auto h-300 mb-40">
-        <SolarControl />
-        <ThermalInsulation />
-        <Security />
-        <ReflectiveLenses />
-        <TechnicalCatalog />
-        <Bim />
-        <Certifications />
-      </div>
+      <SolarControl />
+      <ThermalInsulation />
+      <Security />
+      <ReflectiveLenses />
+      <TechnicalCatalog />
+      <Bim />
+      <Certifications />
       <Footer />
     </div>
   );

@@ -87,10 +87,7 @@ export default function stats() {
       <div className=" z-20 absolute backdrop-blur-sm backdrop-opacity-90  top-0 bg-black/50 min-h-full md:h-96 h-screen w-full ">
         {" "}
       </div>
-      <div
-        className="z-10 h-screen md:h-96 min-h-full md:min-h-0 w-full left-0 top-0 absolute bg-cover"
-        style={{ backgroundImage: "url('/assets/img/cityservices.jpg')" }}
-      ></div>
+      <div className="z-10 h-screen md:h-96 min-h-full md:min-h-0 w-full left-0 top-0 absolute bg-cover bg-homeImg-state"></div>
     </div>
   );
 }

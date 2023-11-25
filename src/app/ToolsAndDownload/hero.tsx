@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Hero = () => {
   return (
     <div>
@@ -13,10 +11,6 @@ const Hero = () => {
             </h1>
           </div>
         </div>
-      </div>
-      <div className="flex justify-between bg-toolsNavColor uppercase font-Montserrat text-productionColorTo px-32 py-7">
-        <div>Tools and download</div>
-        <div>Welcome {">"} Tools and Download</div>
       </div>
     </div>
   );
