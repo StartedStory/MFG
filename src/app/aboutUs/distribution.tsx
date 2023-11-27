@@ -3,10 +3,10 @@ import Image from "next/image";
 const Distribution = () => {
   return (
     <div className="relative w-full flex overflow-hidden">
-      <div className="grid w-full grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mx-auto my-24 items-center">
+      <div className="grid w-full grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mx-24 my-24 items-center">
         <div
           id="text"
-          className="z-20 justify-center flex flex-col items-center ml-36"
+          className="z-20 justify-center flex flex-col items-center"
         >
           <div
             id="text"
