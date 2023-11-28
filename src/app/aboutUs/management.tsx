@@ -4,7 +4,7 @@ const Management = () => {
   return (
     <div className="relative w-full flex bg-essentialBackground">
       <div className="grid w-full grid-rows-2 grid-cols-1 2xl:grid-rows-1 2xl:grid-cols-2 mx-auto items-center">
-        <div className="flex relative mx-auto w-full">
+        <div className="flex relative sm:mx-auto w-full">
           <div className="hidden sm:flex select-none">
             <Image
               className="w-auto h-auto"
@@ -21,7 +21,7 @@ const Management = () => {
               height={600}
             ></Image>
           </div>
-          <div className="bg-productionColorVia w-1/2 mx-auto sm:max-w-275">
+          <div className="bg-productionColorVia w-1/2 mx-auto sm:mx-0 sm:max-w-275">
             <div className="px-1 py-3 border-b-2 border-essentialBackground">
               <Image
                 className="w-auto mx-auto"

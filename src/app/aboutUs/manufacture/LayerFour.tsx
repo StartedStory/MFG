@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LayerFour = () => {
   return (
-    <div className="flex justify-start items-start ml-16 -mt-140">
+    <div className="flex justify-start items-start mt-11 ml-24">
       <div className="mt-7 ml-14 max-w-lg">
         <div className="uppercase text-productionColorTo text-center font-Poppins text-2xl font-semibold leading-8">
           Melt Furnace
@@ -12,7 +12,7 @@ const LayerFour = () => {
           of glass melted at 1,550°C.
         </div>
       </div>
-      <div className="flex items-center mt-70 ml-65 -mr-150">
+      <div className="flex items-center mt-70">
         <Image
           className="w-auto"
           src={"/assets/img/manufacture/RLArrow_2.png"}
@@ -21,14 +21,8 @@ const LayerFour = () => {
           width={121}
         ></Image>
       </div>
-      <Image        
-        className="w-auto"
-        src={"/assets/img/manufacture/Layer_4.png"}
-        alt="Mobile MFG"
-        height={16}
-        width={142}
-      ></Image>
-      <div className="flex items-center mt-50 -ml-30 -mr-30">
+
+      <div className="flex items-center mt-50 ml-32">
         <Image
           className="w-auto"
           src={"/assets/img/manufacture/RLArrow_1.png"}

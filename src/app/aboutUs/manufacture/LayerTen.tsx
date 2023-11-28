@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const LayerTen = () => {
   return (
-    <div className="flex justify-start items-start ml-16 -mt-140">
-      <div className="mt-7 ml-14 max-w-lg">
+    <div className="flex justify-start items-start ml-28 mt-11">
+      <div className="mt-7 ml-3 max-w-lg">
         <div className="uppercase text-productionColorTo text-center font-Poppins text-2xl font-semibold leading-8">
           Glass Delivery
         </div>
@@ -13,7 +13,7 @@ const LayerTen = () => {
           assembly is held in position using articulated arms or air cushions.
         </div>
       </div>
-      <div className="flex items-center mt-60 ml-65">
+      <div className="flex items-center mt-60">
         <Image
           className="w-auto"
           src={"/assets/img/manufacture/RLArrow_2.png"}
@@ -22,14 +22,8 @@ const LayerTen = () => {
           width={121}
         ></Image>
       </div>
-      <Image
-        className="w-auto"
-        src={"/assets/img/manufacture/Layer_10.png"}
-        alt="Mobile MFG"
-        height={16}
-        width={142}
-      ></Image>
-      <div className="flex items-center mt-M40">
+
+      <div className="flex items-center mt-M40 ml-32">
         <Image
           className="w-auto"
           src={"/assets/img/manufacture/RLArrow_1.png"}
