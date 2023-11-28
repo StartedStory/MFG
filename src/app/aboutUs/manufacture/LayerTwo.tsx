@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const LayerTwo = () => {
   return (
-    <div className="flex justify-start items-start ml-16 -mt-140">
-      <div className="mt-4 ml-14 max-w-lg">
+    <div className="flex justify-start items-start mt-12 ml-44">
+      <div className="mt-4 ml-14 max-w-md">
         <div className="uppercase text-productionColorTo text-center font-Poppins text-2xl font-semibold leading-8">
           Preparation of the vitrifiable mixture
         </div>
@@ -12,7 +12,7 @@ const LayerTwo = () => {
           glass.
         </div>
       </div>
-      <div className="flex items-center mt-50 ml-65 -mr-140">
+      <div className="flex items-center mt-50">
         <Image
           className="w-auto"
           src={"/assets/img/manufacture/RLArrow_2.png"}
@@ -21,14 +21,8 @@ const LayerTwo = () => {
           width={121}
         ></Image>
       </div>
-      <Image
-        className="w-auto"
-        src={"/assets/img/manufacture/Layer_2.png"}
-        alt="Mobile MFG"
-        height={16}
-        width={142}
-      ></Image>
-      <div className="flex items-center mt-30 -mr-30">
+
+      <div className="flex items-center mt-30 ml-32">
         <Image
           className="w-auto"
           src={"/assets/img/manufacture/RLArrow_1.png"}
