@@ -5,17 +5,18 @@ import CountUp from "react-countup";
 
 const States = () => {
   const videoSource = "assets/video/MFG2021.mp4";
+  // const videoSource = "";
   return (
-    <div className="h-784 flex relative w-full items-end justify-center">
+    <div className="h-S1000 sm:h-784 flex flex-col sm:flex sm:flex-row relative w-full items-end justify-center pb-10">
       {/* <div className="absolute z-50 -top-52 bg-black opacity-20 w-972 h-554"></div> */}
-      <div className="absolute z-40 -top-52 w-972 h-554">
+      <div className="z-40 absolute -top-72 sm:-top-52 w-full px-10 lg:px-0 lg:w-972 h-554">
         <video autoPlay loop muted className="w-full h-full">
           <source src={videoSource} type="video/mp4" />
         </video>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:px-10 xl:grid-cols-4 gap-40 py-20 justify-center items-center">
-        <div className="z-40 border-r-sky-500 lg:border-r-2 h-20 flex  items-center ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:px-10 lg:grid-cols-4 gap-10 sm:gap-16 lg:gap-24 2xl:gap-40 justify-center items-center mt-48 mx-auto">
+        <div className="z-40 sm:border-r-sky-500 lg:border-r-2 flex justify-center items-center">
           <div className="h-auto w-48 flex flex-col justify-center items-center text-center">
             <div className="h-auto w-16">
               <Image
@@ -34,7 +35,7 @@ const States = () => {
             </div>
           </div>
         </div>
-        <div className="z-40 border-r-sky-500 lg:border-r-2 h-20 flex items-center">
+        <div className="z-40 sm:border-r-sky-500 lg:border-r-2 flex justify-center items-center">
           <div className="h-auto w-48 flex flex-col justify-center items-center text-center">
             <div className="h-auto w-16">
               <Image
@@ -53,7 +54,7 @@ const States = () => {
             </div>
           </div>
         </div>
-        <div className="z-40 border-r-sky-500 lg:border-r-2 h-20 flex items-center">
+        <div className="z-40 sm:border-r-sky-500 lg:border-r-2 flex justify-center items-center">
           <div className="h-auto w-48 flex flex-col justify-center items-center text-center">
             <div className="h-auto w-16">
               <Image
@@ -72,7 +73,7 @@ const States = () => {
             </div>
           </div>
         </div>
-        <div className="z-40">
+        <div className="z-40 flex justify-center items-center">
           <div className="h-auto w-48 flex flex-col justify-center items-center text-center">
             <div className="h-auto w-16">
               <Image
@@ -85,15 +86,15 @@ const States = () => {
             </div>
             <div className="flex flex-col text-4xl font-bold text-sky-500 mt-8">
               <CountUp end={52} duration={10}></CountUp>
-              <span className="text-base font-semibold text-white text-center">
+              <span className="text-base font-semibold text-white text-center px-3">
                 Training for the benefit of employees
               </span>
             </div>
           </div>
         </div>
       </div>
-      <div className="z-20 absolute backdrop-blur-sm backdrop-opacity-90  top-0 bg-black/80 h-784 w-full "></div>
-      <div className="z-10 h-784 w-full left-0 top-0 absolute bg-cover bg-states-landing"></div>
+      <div className="z-20 absolute backdrop-blur-sm backdrop-opacity-90  top-0 bg-black/80 h-S1000 sm:h-784 w-full"></div>
+      <div className="z-10 h-S1000 sm:h-784 w-full left-0 top-0 absolute bg-cover bg-states-landing"></div>
     </div>
   );
 };
