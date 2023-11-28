@@ -6,7 +6,7 @@ const Distribution = () => {
       <div className="grid w-full grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mx-24 my-24 items-center">
         <div
           id="text"
-          className="z-20 justify-center flex flex-col items-center"
+          className="z-20 justify-center flex flex-col items-center w-full"
         >
           <div
             id="text"
@@ -18,17 +18,17 @@ const Distribution = () => {
                 Distribution Efficace
               </h2>
             </div>
-            <h3 className="text-center md:text-left text-5xl font-bold text-buttonColor leading-productionLineHeight">
+            <h3 className="text-center lg:text-left text-5xl font-bold text-buttonColor leading-productionLineHeight">
               Discover Excellence with editerranean Float Glass
             </h3>
-            <p className="mt-9 max-w-md md:max-w-lg text-black font-thin">
+            <p className="mt-9 w-full lg:max-w-lg text-black font-thin">
               Our distribution network goes beyond simple proximity, promoting
               harmonious collaboration between our teams. This synergy is
               essential to ensure the quality and precision of our responses,
               careful monitoring of the supply chain and unwavering consistency
               in production.
             </p>
-            <p className="mt-9 max-w-md md:max-w-lg text-black font-thin">
+            <p className="mt-9 w-full lg:max-w-lg text-black font-thin">
               At Mediterranean Float Glass, we are committed to delivering
               excellence. Discover your dedicated distributor today to access
               our world-class glass solutions. We are with you every step of the
@@ -52,11 +52,14 @@ const Distribution = () => {
           </div>
         </div>
 
-        <div id="mobile" className="z-20  select-none flex justify-center c">
+        <div
+          id="map"
+          className="z-20  select-none flex justify-center order-first lg:order-none"
+        >
           <Image
             className="w-auto"
             src={"/assets/img/distribution/distribution_background.png"}
-            alt="Mobile MFG"
+            alt="map MFG"
             height={600}
             width={350}
           ></Image>
