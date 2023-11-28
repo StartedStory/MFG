@@ -181,7 +181,7 @@ const About = () => {
         </div>
         {/* Image section */}
         <div className="relative p-auto md:p-6 md:pl-0 transform lg:w-full order-first flex-1">
-          <div id="images" className="w-full h-full justify-end ml-16 md:ml-0">
+          <div id="images" className="w-full h-full justify-end ml-0 sm:ml-16 md:ml-0">
             <Image
               src="/assets/img/about2.png"
               alt="Building"
