@@ -3,25 +3,25 @@ import Image from "next/image";
 const Management = () => {
   return (
     <div className="relative w-full flex bg-essentialBackground">
-      <div className="grid w-full grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mx-auto items-center">
-        <div className="flex">
-          <div className="select-none">
+      <div className="grid w-full grid-rows-2 grid-cols-1 2xl:grid-rows-1 2xl:grid-cols-2 mx-auto items-center">
+        <div className="flex relative mx-auto w-full">
+          <div className="hidden sm:flex select-none">
             <Image
-              className="w-auto"
+              className="w-auto h-auto"
               src={"/assets/img/management/background.png"}
               alt="background"
               height={600}
               width={350}
             ></Image>
             <Image
-              className="absolute bottom-0 w-auto"
+              className="w-auto absolute bottom-0"
               src={"/assets/img/management/builder.png"}
               alt="builder"
               width={350}
               height={600}
             ></Image>
           </div>
-          <div className="bg-productionColorVia max-w-275">
+          <div className="bg-productionColorVia w-1/2 mx-auto sm:max-w-275">
             <div className="px-1 py-3 border-b-2 border-essentialBackground">
               <Image
                 className="w-auto mx-auto"
@@ -62,23 +62,23 @@ const Management = () => {
         </div>
         <div
           id="text"
-          className="z-20 justify-center flex flex-col items-center mr-36 mt-20 mb-24"
+          className="w-auto z-20 justify-center flex flex-col items-center mx-32 2xl:mx-20 mt-0 2xl:mt-20 mb-0 2xl:mb-24"
         >
           <div
             id="text"
             className="space-y-3 items-center md:items-start flex flex-col"
           >
-            <h3 className="text-buttonColor w-full 2xl:w-11/12 font-Montserrat text-5xl font-bold leading-managementHeight">
+            <h3 className="text-buttonColor w-full h-full font-Montserrat text-5xl font-bold leading-managementHeight">
               Quality Management System
             </h3>
-            <p className="mt-9 max-w-md md:max-w-3xl text-aboutUs font-Poppins text-lg leading-8">
+            <p className="mt-9 w-full 2xl:max-w-3xl text-aboutUs font-Poppins text-lg leading-8">
               To guarantee the performance of its management in terms of Health,
               Safety, Environment and Quality, MFG has certified its activities
               for many years by internationally recognized organizations. Thus,
               production is carried out in accordance with regularly audited
               production standards.
             </p>
-            <p className="mt-10 max-w-md md:max-w-3xl text-aboutUs font-Poppins text-lg leading-8">
+            <p className="mt-10 w-full 2xl:max-w-3xl text-aboutUs font-Poppins text-lg leading-8">
               Serving quality of life and customer satisfaction, the MFG central
               laboratory obtained a favorable accreditation decision for
               physicochemical testing of glass following the ALGERAC evaluation
