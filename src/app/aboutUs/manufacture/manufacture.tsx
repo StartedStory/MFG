@@ -29,10 +29,10 @@ const Manufacture = () => {
           supported production line, 24 hours a day, 7 days a week
         </div>
       </div>
-      <div className="mt-20 mb-24 mx-44">
+      <div className="mt-20 mb-24 mx-44 relative">
         <Image
-          className="w-auto h-auto absolute inset-x-1/2 -translate-x-1/2"
-          src={"/assets/img/manufacture/Shape.png"}
+          className="w-auto h-auto mx-auto"
+          src={"/assets/img/manufacture/Mask_group.png"}
           alt="Mobile MFG"
           height={600}
           width={350}
@@ -43,11 +43,11 @@ const Manufacture = () => {
         <LayerThree />
         <LayerFour />
         <LayerFive />
-        <LayerSix />
-        <LayerSeven />
-        <LayerEight />
-        <LayerNine />
-        <LayerTen />
+        {/* <LayerSix /> */}
+        {/* <LayerSeven /> */}
+        {/* <LayerEight /> */}
+        {/* <LayerNine /> */}
+        {/* <LayerTen /> */}
       </div>
     </div>
   );
