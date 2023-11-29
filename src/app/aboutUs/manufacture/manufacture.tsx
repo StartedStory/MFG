@@ -20,7 +20,7 @@ const Manufacture = () => {
             Process float
           </h2>
         </div>
-        <h3 className="mt-3 text-center font-Montserrat text-4xl sm:text-5xl font-bold leading-8 sm:leading-productionLineHeight mx-20">
+        <h3 className="mt-3 text-center font-Montserrat text-4xl lg:text-5xl font-bold leading-8 sm:leading-productionLineHeight mx-20">
           The Float Glass Manufacturing Process
         </h3>
         <div className="hidden sm:flex text-aboutUs text-center font-Poppins text-lg leading-8 mx-80 mt-7">
