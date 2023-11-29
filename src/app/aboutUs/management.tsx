@@ -68,7 +68,7 @@ const Management = () => {
             id="text"
             className="space-y-3 items-center md:items-start flex flex-col"
           >
-            <h3 className="text-buttonColor w-full h-full font-Montserrat text-5xl font-bold leading-managementHeight">
+            <h3 className="text-buttonColor w-full h-full font-Montserrat text-4xl lg:text-5xl font-bold leading-managementHeight">
               Quality Management System
             </h3>
             <p className="mt-9 w-full 2xl:max-w-3xl text-aboutUs font-Poppins text-lg leading-8">
