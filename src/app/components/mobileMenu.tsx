@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function MobileMenu() {
   const [isOpen, setOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function MobileMenu() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-10 h-10"
+            className="w-10 h-10 text-white hidden"
           >
             <path
               strokeLinecap="round"
@@ -43,10 +44,10 @@ export default function MobileMenu() {
         )}
       </button>
       {isOpen && (
-        <div className="absolute min-h-full w-screen bg-blue-500 left-0 top-0">
+        <div className="bg-blue-500 w-full">
           <button
             onClick={() => setOpen(!isOpen)}
-            className="transition-all ease-in-out duration-300"
+            className="transition-all ease-in-out duration-300 w-full"
           >
             {isOpen ? (
               <svg
@@ -55,7 +56,7 @@ export default function MobileMenu() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-10 h-10"
+                className="w-10 h-10 text-white ml-auto"
               >
                 <path
                   strokeLinecap="round"
@@ -70,7 +71,7 @@ export default function MobileMenu() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-10 h-10"
+                className="w-10 h-10 text-white"
               >
                 <path
                   strokeLinecap="round"
@@ -80,8 +81,28 @@ export default function MobileMenu() {
               </svg>
             )}
           </button>
-          <ul>
-            <li>Ok</li>
+          <ul className="flex-col">
+            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+              <Link href="/">Home</Link>
+            </li>
+            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+              <Link href="/aboutUs">About us</Link>
+            </li>
+            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+              Our Products
+            </li>
+            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+              News
+            </li>
+            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+              <Link href="/ToolsAndDownload">Tools and download</Link>
+            </li>
+            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+              Career
+            </li>
+            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+              Contact
+            </li>
           </ul>
         </div>
       )}
