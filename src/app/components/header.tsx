@@ -52,10 +52,10 @@ export default function Header() {
           ></Image>
           <ul className="lg:flex gap-8 xl:gap-12 font-semibold hidden">
             <li className="hover:text-secondary hover:cursor-pointer">
-              <Link href="/">Welcome</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="hover:text-secondary hover:cursor-pointer">
-              <Link href="/aboutUs">Our society</Link>
+              <Link href="/aboutUs">About us</Link>
             </li>
             <li className="hover:text-secondary hover:cursor-pointer">
               Our Products
