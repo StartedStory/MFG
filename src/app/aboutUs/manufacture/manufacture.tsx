@@ -50,7 +50,7 @@ const Manufacture = () => {
         <LayerTen />
       </div>
 
-      <div className="lg:hidden my-24 mx-5 sm:mx-auto max-w-md sm:max-w-lg md:max-w-xl">
+      <div className="lg:hidden my-24 mx-auto max-w-md sm:max-w-lg md:max-w-xl">
         <div className="w-full">
           <Image
             className="w-auto h-auto"

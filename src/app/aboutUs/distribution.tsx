@@ -3,7 +3,7 @@ import Image from "next/image";
 const Distribution = () => {
   return (
     <div className="relative w-full flex overflow-hidden">
-      <div className="grid w-full grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mx-24 my-24 items-center">
+      <div className="grid w-full grid-rows-1 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mx-24 my-24 items-center">
         <div
           id="text"
           className="z-20 justify-center flex flex-col items-center w-full"
@@ -18,7 +18,7 @@ const Distribution = () => {
                 Distribution Efficace
               </h2>
             </div>
-            <h3 className="text-center lg:text-left text-5xl font-bold text-buttonColor leading-productionLineHeight">
+            <h3 className="text-center lg:text-left text-4xl lg:text-5xl font-bold text-buttonColor leading-productionLineHeight">
               Discover Excellence with editerranean Float Glass
             </h3>
             <p className="mt-9 w-full lg:max-w-lg text-black font-thin">
@@ -51,19 +51,13 @@ const Distribution = () => {
             </div>
           </div>
         </div>
-
-        <div
-          id="map"
-          className="z-20  select-none flex justify-center order-first lg:order-none"
-        >
-          <Image
-            className="w-auto"
-            src={"/assets/img/distribution/distribution_background.png"}
-            alt="map MFG"
-            height={600}
-            width={350}
-          ></Image>
-        </div>
+        <Image
+          className="w-auto h-auto order-first lg:order-none"
+          src={"/assets/img/distribution/distribution_background.png"}
+          alt="map MFG"
+          height={600}
+          width={350}
+        ></Image>
       </div>
     </div>
   );
