@@ -65,7 +65,6 @@ const config: Config = {
         managementHeight: "60.5px",
       },
       margin: {
-        "470": "470px",
         "165": "165px",
         "160": "160px",
         "150": "150px",

@@ -20,7 +20,7 @@ const Manufacture = () => {
             Process float
           </h2>
         </div>
-        <h3 className="mt-3 text-center font-Montserrat text-4xl sm:text-5xl font-bold leading-8 sm:leading-productionLineHeight mx-470">
+        <h3 className="mt-3 text-center font-Montserrat text-4xl sm:text-5xl font-bold leading-8 sm:leading-productionLineHeight mx-20">
           The Float Glass Manufacturing Process
         </h3>
         <div className="hidden sm:flex text-aboutUs text-center font-Poppins text-lg leading-8 mx-80 mt-7">
@@ -29,7 +29,7 @@ const Manufacture = () => {
           supported production line, 24 hours a day, 7 days a week
         </div>
       </div>
-      <div className="mt-20 mb-24 mx-44 relative">
+      <div className="hidden lg:flex my-24 mx-44 relative">
         <Image
           className="w-auto h-auto mx-auto"
           src={"/assets/img/manufacture/Mask_group.png"}
@@ -43,12 +43,15 @@ const Manufacture = () => {
         <LayerThree />
         <LayerFour />
         <LayerFive />
-        {/* <LayerSix /> */}
-        {/* <LayerSeven /> */}
-        {/* <LayerEight /> */}
-        {/* <LayerNine /> */}
-        {/* <LayerTen /> */}
+        <LayerSix />
+        <LayerSeven />
+        <LayerEight />
+        <LayerNine />
+        <LayerTen />
       </div>
+
+      <div className="flex lg:hidden my-24 mx-20"></div>
+
     </div>
   );
 };
