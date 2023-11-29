@@ -19,7 +19,7 @@ const Distribution = () => {
               </h2>
             </div>
             <h3 className="text-center lg:text-left text-4xl lg:text-5xl font-bold text-buttonColor leading-productionLineHeight">
-              Discover Excellence with editerranean Float Glass
+              Discover Excellence with Mediterranean Float Glass
             </h3>
             <p className="mt-9 w-full lg:max-w-lg text-black font-thin">
               Our distribution network goes beyond simple proximity, promoting

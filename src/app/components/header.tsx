@@ -40,13 +40,13 @@ export default function Header() {
       </div>
       <div
         id="logo-menu-container"
-        className="py-5 flex justify-between flex-row bg-white px-12 items-center max-w-7xl w-full mx-auto"
+        className="py-5 lg:flex justify-between flex-row bg-white px-12 items-center lg:max-w-7xl w-full mx-auto"
       >
         <div className="flex items-center justify-between w-full">
           <Image
             src="/assets/img/logo-petit.png"
             alt="Mediterrnean Float Glass Logo"
-            className="w-auto h-20 select-none"
+            className="hidden lg:flex w-auto h-20 select-none"
             width={100}
             height={100}
           ></Image>
