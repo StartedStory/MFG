@@ -5,7 +5,7 @@ const Main = () => {
         <div className="text-5xl font-Poppins font-medium">Contact Us</div>
         <div className="mt-20">
           Need to get in touch with us? Either fill out the form with your
-          inquiry or find the department email you'd like to contact below.
+          inquiry or find the department email you&apos;d like to contact below.
         </div>
       </div>
       <div className="px-3 py-10 rounded overflow-hidden shadow-xl">
