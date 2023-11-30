@@ -7,8 +7,8 @@ const Bim = () => {
         <span className="flex flex-1 bg-toolsTitle w-auto h-[1px] border-t-1 border-toolsTitle"></span>
       </div>
       <div className="flex items-center">
-        <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
-          <div className="text-sm font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
+      <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
+          <div className="text-sm text-center font-Poppins font-bold text-productionColorTo relative hover:animate-pulse py-10 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
@@ -17,6 +17,8 @@ const Bim = () => {
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
+              width="50%"
+              className="mx-auto mt-10"
             >
               <path
                 stroke-linecap="round"
@@ -30,7 +32,7 @@ const Bim = () => {
             >
               <button
                 type="button"
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 rounded-md bg-red-600 px-10 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 rounded-md bg-red-600 px-5 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Download
               </button>
