@@ -3,14 +3,14 @@ const ThermalInsulation = () => {
     <div className="mt-20 mx-32">
       <div className="flex flex-1 items-center">
         <span className="flex flex-1 bg-toolsTitle w-auto h-[1px] border-t-1 border-toolsTitle"></span>
-        <h4 className="uppercase text-toolsLandingColor text-bold px-3">
+        <h4 className="uppercase text-toolsLandingColor text-xl font-bold px-3">
           Thermal Insulation
         </h4>
         <span className="flex flex-1 bg-toolsTitle w-auto h-[1px] border-t-1 border-toolsTitle"></span>
       </div>
       <div className="flex gap-5 items-center">
         <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
-          <div className="text-base font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
+          <div className="text-sm font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
@@ -40,7 +40,7 @@ const ThermalInsulation = () => {
           </div>
         </div>
         <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
-          <div className="text-base font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
+          <div className="text-sm font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
@@ -70,7 +70,7 @@ const ThermalInsulation = () => {
           </div>
         </div>
         <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
-          <div className="text-base font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
+          <div className="text-sm font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
@@ -100,7 +100,7 @@ const ThermalInsulation = () => {
           </div>
         </div>
         <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
-          <div className="text-base font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
+          <div className="text-sm font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
