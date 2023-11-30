@@ -44,7 +44,7 @@ export default function MobileMenu() {
         )}
       </button>
       {isOpen && (
-        <div className="bg-blue-500 w-full">
+        <div className="overflow-hidden bg-gray-900/80 w-screen  px-10 pt-5 absolute right-0 top-10 z-max">
           <button
             onClick={() => setOpen(!isOpen)}
             className="transition-all ease-in-out duration-300 w-full"
@@ -81,27 +81,27 @@ export default function MobileMenu() {
               </svg>
             )}
           </button>
-          <ul className="flex-col">
-            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+          <ul className="flex-col pt-12">
+            <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
               <Link href="/">Home</Link>
             </li>
-            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+            <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
               <Link href="/aboutUs">About us</Link>
             </li>
-            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+            <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
               Our Products
             </li>
-            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+            <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
               News
             </li>
-            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+            <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
               <Link href="/ToolsAndDownload">Tools and download</Link>
             </li>
-            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
+            <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
               Career
             </li>
-            <li className="block rounded-md px-3 py-2 text-base font-medium text-white">
-              Contact
+            <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>

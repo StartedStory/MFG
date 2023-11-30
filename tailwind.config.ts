@@ -35,6 +35,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         contactImg: "url('/assets/img/backgroundContact.png')",
+        contactLandingImg: "url('/assets/img/service3.jpg')",
         "about-landing": "url('/assets/img/about/landing.png')",
         "tools-download": "url('/assets/img/ToolsAndDownload/office.jpg')",
         "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
@@ -106,6 +107,9 @@ const config: Config = {
       },
       opacity: {
         "2.5": "0.025",
+      },
+      zIndex: {
+        max: "9999",
       },
     },
   },
