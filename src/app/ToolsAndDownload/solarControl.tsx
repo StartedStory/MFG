@@ -10,7 +10,7 @@ const SolarControl = () => {
       </div>
       <div className="flex items-start">
         <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
-          <div className="text-sm font-Poppins text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
+          <div className="text-base font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
@@ -40,7 +40,7 @@ const SolarControl = () => {
           </div>
         </div>
         <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
-          <div className="text-sm font-Poppins text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
+          <div className="text-base font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
@@ -70,7 +70,7 @@ const SolarControl = () => {
           </div>
         </div>
         <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
-          <div className="text-sm font-Poppins text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
+          <div className="text-base font-Poppins font-bold text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
