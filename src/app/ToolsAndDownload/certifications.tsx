@@ -3,7 +3,7 @@ const Certifications = () => {
     <div className="mt-20 mx-32 mb-32">
       <div className="flex flex-1 items-center">
         <span className="flex flex-1 bg-toolsTitle w-auto h-[1px] border-t-1 border-toolsTitle"></span>
-        <h4 className="uppercase text-toolsLandingColor text-bold px-3">
+        <h4 className="uppercase text-toolsLandingColor text-xl font-bold px-3">
           Certifications
         </h4>
         <span className="flex flex-1 bg-toolsTitle w-auto h-[1px] border-t-1 border-toolsTitle"></span>
