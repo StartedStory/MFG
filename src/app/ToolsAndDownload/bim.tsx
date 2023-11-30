@@ -7,8 +7,8 @@ const Bim = () => {
         <span className="flex flex-1 bg-toolsTitle w-auto h-[1px] border-t-1 border-toolsTitle"></span>
       </div>
       <div className="flex items-center">
-        <div className="mx-auto border-b border-b-toolsLandingColor mt-12 pb-3 w-1/4 flex justify-around items-end">
-          <div className="text-sm font-Poppins text-productionColorTo">
+        <div className="mx-auto mt-12 w-1/4 flex justify-around items-end">
+          <div className="text-sm font-Poppins text-productionColorTo relative hover:animate-pulse p-5 shadow-xl rounded-xl">
             Policy-QHSE-Fr-23.06.2020
             <svg
               fill="none"
@@ -17,7 +17,6 @@ const Bim = () => {
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
-              className="hover:animate-pulse"
             >
               <path
                 stroke-linecap="round"
@@ -25,28 +24,18 @@ const Bim = () => {
                 d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
               ></path>
             </svg>
-          </div>
-          <a
-            href="http://mfg.dz/wp-content/uploads/2017/10/D%C3%A9pliant_contr%C3%B4le-solaire_eng.pdf"
-            download
-          >
-            <button className="p-3 bg-toolsDownload text-white rounded-full hover:animate-bounce">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
+            <a
+              href="http://mfg.dz/wp-content/uploads/2017/10/D%C3%A9pliant_contr%C3%B4le-solaire_eng.pdf"
+              download
+            >
+              <button
+                type="button"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 rounded-md bg-red-600 px-10 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-                />
-              </svg>
-            </button>
-          </a>
+                Download
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
