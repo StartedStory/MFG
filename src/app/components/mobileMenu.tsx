@@ -92,7 +92,7 @@ export default function MobileMenu() {
               Our Products
             </li>
             <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
-              News
+              <Link href="/news">News</Link>
             </li>
             <li className="block rounded-md px-3 py-2 text-xl font-medium text-blue-200">
               <Link href="/ToolsAndDownload">Tools and download</Link>
