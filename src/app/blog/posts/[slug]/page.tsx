@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ArrowLeft from "../../../../components/ArrowLeft";
+import Header from "../../../components/header";
+import Footer from "../../../components/footer";
 import { getPost } from "../../../../lib/cosmic";
 import { sanitize } from "isomorphic-dompurify";
 
@@ -21,6 +23,7 @@ export default async ({ params }: { params: { slug: string } }) => {
 
   return (
     <>
+      <Header />
       {post && post.metadata.hero?.imgix_url && (
         <Image
           width={1400}
@@ -33,7 +36,7 @@ export default async ({ params }: { params: { slug: string } }) => {
           blurDataURL={`${post.metadata.hero?.imgix_url}?auto=format,compress&q=1&blur=500&w=2`}
         />
       )}
-      <main className="mx-auto flex flex-col justify-center">
+      <main className="mx-auto mb-32 flex flex-col justify-center">
         <div className="mx-auto flex w-full flex-col items-start justify-center px-4 md:flex-row">
           <div className="mt-5 flex justify-start pb-5 md:justify-center md:pb-0 md:pr-20">
             <Link
@@ -66,6 +69,7 @@ export default async ({ params }: { params: { slug: string } }) => {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 };
