@@ -35,7 +35,7 @@ export default async ({ params }: { params: { slug: string } }) => {
       )}
       <main className="mx-auto flex flex-col justify-center">
         <div className="mx-auto flex w-full flex-col items-start justify-center px-4 md:flex-row">
-          <div className="mt-4 flex justify-start pb-4 md:justify-center md:pb-0 md:pr-20">
+          <div className="mt-5 flex justify-start pb-5 md:justify-center md:pb-0 md:pr-20">
             <Link
               href="/blog"
               className="rounded-full border border-zinc-100 bg-white p-2 text-zinc-700 shadow-md dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-300"
@@ -46,7 +46,13 @@ export default async ({ params }: { params: { slug: string } }) => {
           <div className="mr-20 flex w-full max-w-3xl flex-col justify-start md:w-3/4">
             <h2>
               {!post && <div className="text-center">Post Not found</div>}
-              {post && <Link href={`/posts/${post.slug}`}>{post.title}</Link>}
+              {post && (
+                <Link href={`/posts/${post.slug}`}>
+                  <div className="py-5 text-2xl font-semibold tracking-tight text-buttonColor">
+                    {post.title}
+                  </div>
+                </Link>
+              )}
             </h2>
             {post && (
               <>

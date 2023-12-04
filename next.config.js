@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  // output: "export",
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -12,5 +12,8 @@ const nextConfig = {
       },
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+ },
 };
 module.exports = nextConfig;

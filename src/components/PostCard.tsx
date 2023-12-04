@@ -21,11 +21,11 @@ export default function PostCard({ post }: { post: Post }) {
           />
         </Link>
       )}
-      <h2 className="pb-3 text-xl font-semibold tracking-tight text-aboutUs">
+      <h2 className="pb-3 text-xl font-semibold tracking-tight text-buttonColor">
         <Link href={`/blog/posts/${post.slug}`}>{post.title}</Link>
       </h2>
       <div
-        className="text-aboutUs"
+        className="text-buttonColor"
         dangerouslySetInnerHTML={{
           __html: sanitize(post.metadata.teaser) ?? "",
         }}

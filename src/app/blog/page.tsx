@@ -2,9 +2,10 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import PostCard from "../../components/PostCard";
 import { getAllPosts } from "../../lib/cosmic";
+import { Post } from "@/lib/types";
 
-export async function Page(): Promise<JSX.Element> {
-  const posts = await getAllPosts();
+export async function Page() {
+  const posts: Post[] = await getAllPosts();
 
   return (
     <main className="mx-auto mb-52 mt-4 w-full max-w-3xl flex-col space-y-16 px-4 lg:px-0">
