@@ -242,20 +242,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-      {/* Button */}
-      {/* <div className="mx-2 pb-24 my-2">
-        <button className="group relative bg-secondary py-3 px-6 text-white outline-none hover:bg-secondary focus:bg-secondary">
-          <span
-            className="absolute -start-2 -top-2 block h-5 w-5 border-s-4 border-t-4 border-secondary group-hover:border-secondary group-focus:border-secondary"
-            aria-hidden="true"
-          ></span>
-          <span className="uppercase font-bold">See Trout</span>
-          <span
-            className="absolute -bottom-2 -end-2 block h-5 w-5 rotate-180 border-s-4 border-t-4 border-secondary group-hover:border-secondary group-focus:border-secondary"
-            aria-hidden="true"
-          ></span>
-        </button>
-      </div> */}
     </div>
   );
 }
