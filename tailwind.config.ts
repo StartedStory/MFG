@@ -86,7 +86,6 @@ const config: Config = {
         "10": "10px",
       },
       width: {
-        B1000: "1000px",
         "752": "752px",
         "972": "972px",
         A300: "300px",
