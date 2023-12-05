@@ -8,12 +8,12 @@ export async function Page() {
   const posts: Post[] = await getAllPosts();
 
   return (
-    <main className="mx-auto mb-52 mt-4 w-full max-w-3xl flex-col space-y-16 px-4 lg:px-0">
+    <main className="mt-20 mb-52 lg:mx-0 w-full flex flex-col lg:flex lg:flex-row justify-center items-center space-y-10 lg:space-y-0">
       {!posts && "You must add at least one Post to your Bucket"}
       {posts &&
         posts.map((post) => {
           return (
-            <div key={post.id}>
+            <div key={post.id} className="px-20 sm:px-0 w-full sm:w-2/3 lg:w-1/4 mx-auto">
               <PostCard post={post} />
             </div>
           );
