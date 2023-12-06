@@ -1,4 +1,20 @@
+"use client";
+
+import ReCAPTCHA from "react-google-recaptcha";
+import { verifyCaptcha } from "../../../ServerActions";
+import { useRef, useState } from "react";
+
 const Main = () => {
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+  const [isVerified, setIsverified] = useState<boolean>(false);
+
+  async function handleCaptchaSubmission(token: string | null) {
+    // Server function to verify captcha
+    await verifyCaptcha(token)
+      .then(() => setIsverified(true))
+      .catch(() => setIsverified(false));
+  }
+
   return (
     <div className="flex flex-col lg:flex lg:flex-row justify-between items-center mx-50 xl:mx-60 2xl:mx-64 mt-20 mb-64">
       <div className="mt-20 mr-10 mb-20 lg:mb-0 w-2/3 lg:w-1/2">
@@ -68,10 +84,15 @@ const Main = () => {
               />
             </div>
           </div>
-          <div className="flex flex-wrap px-3">
+          <div className="flex items-center justify-between flex-wrap px-3">
+            <ReCAPTCHA
+              sitekey={process.env.siteKey}
+              ref={recaptchaRef}
+              onChange={handleCaptchaSubmission}
+            />
             <button
               type="button"
-              className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="mt-5 sm:mt-0 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Submit
             </button>
