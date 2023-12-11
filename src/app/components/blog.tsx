@@ -16,12 +16,50 @@ export default function Blog() {
         id="entries"
         className="grid grid-cols-1 lg:grid-cols-3 py-20 pb-40 gap-12 lg:gap-8 mx-auto max-w-lg lg:max-w-max"
       >
-        <div className="flex flex-col items-center justify-center mx-auto max-w-sm">
+        <div className="flex flex-col items-center justify-start mx-auto max-w-sm">
           <Image
             alt="blog 1"
             height={300}
             width={400}
-            src={"/assets/img/blog-floating.png"}
+            src={"/assets/img/blog/blog1.jpg"}
+            className="h-[250px]"
+          ></Image>
+          <div className="flex flex-row w-full h-12 bg-gray-100 border-b border-l border-r justify-between px-5">
+            <div className="text-xs font-light items-center flex">
+              <span>
+                <i className="fa fa-user text-secondary"></i> By Admin
+              </span>
+            </div>
+            <div className="text-xs font-light items-center flex">
+              <span>
+                <i className="fa fa-calendar  text-secondary"></i> 29 August, 23
+              </span>
+            </div>
+          </div>
+          <div className="flex flex-col w-full px-5  space-y-4">
+            <h2 className="text-xl font-bold pt-4">
+              Quality, Safety and Environment
+            </h2>
+            <p>
+              This is the theme of the event, as varied as it is rich, organized
+              by the QHSE department of MFG, from 05/11 to 08/11/2018,...
+            </p>
+            <a
+              className="text-secondary underline-offset-4	font-semibold underline decoration-[#add2f8]"
+              href="#"
+              target="_blank"
+            >
+              Continue reading
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-start mx-auto max-w-sm">
+          <Image
+            alt="blog 1"
+            height={300}
+            width={400}
+            src={"/assets/img/blog/blog2.jpg"}
+            className="h-[250px]"
           ></Image>
           <div className="flex flex-row w-full h-12 bg-gray-100 border-b border-l border-r justify-between px-5">
             <div className="text-xs font-light items-center flex">
@@ -52,12 +90,13 @@ export default function Blog() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center mx-auto max-w-sm">
+        <div className="flex flex-col items-center justify-start mx-auto max-w-sm">
           <Image
             alt="blog 1"
             height={300}
             width={400}
-            src={"/assets/img/blog-floating0.png"}
+            src={"/assets/img/blog/blog3.jpg"}
+            className="h-[250px]"
           ></Image>
           <div className="flex flex-row w-full h-12 bg-gray-100 border-b border-l border-r justify-between px-5">
             <div className="text-xs font-light items-center flex">
@@ -73,47 +112,12 @@ export default function Blog() {
           </div>
           <div className="flex flex-col w-full px-5  space-y-4">
             <h2 className="text-xl font-bold pt-4">
-              MFG wins first prize for its innovative product “MEDICLEAN”
+              MFG participated in the 21st edition of the BATIMATEC 2018
+              exhibition
             </h2>
             <p>
-              MFG (Mediterranean Float Glass) participated in the INNOVBAT 21018
-              competition and won 1st prize – Sadok Stiti –...
-            </p>
-            <a
-              className="text-secondary underline-offset-4	font-semibold underline decoration-[#add2f8]"
-              href="#"
-              target="_blank"
-            >
-              Continue reading
-            </a>
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-center mx-auto max-w-sm">
-          <Image
-            alt="blog 1"
-            height={300}
-            width={400}
-            src={"/assets/img/blog-floating0.png"}
-          ></Image>
-          <div className="flex flex-row w-full h-12 bg-gray-100 border-b border-l border-r justify-between px-5">
-            <div className="text-xs font-light items-center flex">
-              <span>
-                <i className="fa fa-user text-secondary"></i> By Admin
-              </span>
-            </div>
-            <div className="text-xs font-light items-center flex">
-              <span>
-                <i className="fa fa-calendar  text-secondary"></i> 29 August, 23
-              </span>
-            </div>
-          </div>
-          <div className="flex flex-col w-full px-5  space-y-4">
-            <h2 className="text-xl font-bold pt-4">
-              MFG wins first prize for its innovative product “MEDICLEAN”
-            </h2>
-            <p>
-              MFG (Mediterranean Float Glass) participated in the INNOVBAT 21018
-              competition and won 1st prize – Sadok Stiti –...
+              We warmly thank all those who visited our stand during the 21st
+              edition of the BATIMATEC 2018 exhibition. We...
             </p>
             <a
               className="text-secondary underline-offset-4	font-semibold underline decoration-[#add2f8]"
