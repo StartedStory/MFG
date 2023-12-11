@@ -10,7 +10,7 @@ import Residence from "./residence";
 import Sba from "./sba";
 import Medecine from "./medecine";
 
-export default function stats() {
+export default function Stats() {
   const [tabNumber, setTabNumber] = useState(1);
 
   const tabClick = (id: number) => {
