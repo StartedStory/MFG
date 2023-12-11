@@ -43,7 +43,7 @@ export default function stats() {
               tabNumber === 1 ? "text-cyan-500" : ""
             }`}
           >
-            <p className="w-full flex justify-start">Daira d'Oran</p>
+            <p className="w-full flex justify-start">Daira d&apos;Oran</p>
           </button>
           <button
             onClick={() => tabClick(2)}
