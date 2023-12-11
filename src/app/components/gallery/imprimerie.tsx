@@ -29,10 +29,6 @@ const Imprimerie = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -63,10 +59,6 @@ const Imprimerie = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -97,10 +89,6 @@ const Imprimerie = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -131,10 +119,6 @@ const Imprimerie = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -165,10 +149,6 @@ const Imprimerie = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -199,10 +179,6 @@ const Imprimerie = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>

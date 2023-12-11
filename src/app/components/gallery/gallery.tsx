@@ -21,7 +21,7 @@ export default function Stats() {
     <div className="px-20 mx-auto bg-white py-12">
       <div className="px-10 w-full flex flex-col lg:mx-row">
         <div className="flex flex-col justify-center  w-full items-center pb-12">
-          <div className="mt-10 flex justify-center items-end gap-text-cyan-500">
+          <div className="mt-10 flex justify-center items-end gap-text-cyan-500 text-xl">
             <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
             <h2 className="uppercase  font-bold">Our Key Projects</h2>
           </div>
@@ -40,7 +40,7 @@ export default function Stats() {
           <button
             onClick={() => tabClick(1)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 1 ? "text-cyan-500" : ""
+              tabNumber === 1 ? "text-cyan-500 text-xl" : ""
             }`}
           >
             <p className="w-full flex justify-start">Daira d&apos;Oran</p>
@@ -48,7 +48,7 @@ export default function Stats() {
           <button
             onClick={() => tabClick(2)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 2 ? "text-cyan-500" : ""
+              tabNumber === 2 ? "text-cyan-500 text-xl" : ""
             }`}
           >
             <p className="w-full flex justify-start">Imprimerie le Bouquet</p>
@@ -56,7 +56,7 @@ export default function Stats() {
           <button
             onClick={() => tabClick(3)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 3 ? "text-cyan-500" : ""
+              tabNumber === 3 ? "text-cyan-500 text-xl" : ""
             }`}
           >
             <p className="w-full flex justify-start">Ooredoo les pins</p>
@@ -64,7 +64,7 @@ export default function Stats() {
           <button
             onClick={() => tabClick(4)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 4 ? "text-cyan-500" : ""
+              tabNumber === 4 ? "text-cyan-500 text-xl" : ""
             }`}
           >
             <p className="w-full flex justify-start">ORAN - Sotexham</p>
@@ -72,7 +72,7 @@ export default function Stats() {
           <button
             onClick={() => tabClick(5)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 5 ? "text-cyan-500" : ""
+              tabNumber === 5 ? "text-cyan-500 text-xl" : ""
             }`}
           >
             <p className="w-full flex justify-start">Renault</p>
@@ -80,23 +80,23 @@ export default function Stats() {
           <button
             onClick={() => tabClick(6)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 6 ? "text-cyan-500" : ""
+              tabNumber === 6 ? "text-cyan-500 text-xl" : ""
             }`}
           >
-            <p className="w-full flex justify-start">RESIDENCE DES PINS</p>
+            <p className="w-full flex justify-start">Residence Des Pins</p>
           </button>
           <button
             onClick={() => tabClick(7)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 7 ? "text-cyan-500" : ""
+              tabNumber === 7 ? "text-cyan-500 text-xl" : ""
             }`}
           >
-            <p className="w-full flex justify-start">SBA HASNAOUI</p>
+            <p className="w-full flex justify-start">Sba Hasnaoui</p>
           </button>
           <button
             onClick={() => tabClick(8)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 8 ? "text-cyan-500" : ""
+              tabNumber === 8 ? "text-cyan-500 text-xl" : ""
             }`}
           >
             Universite de Medecine

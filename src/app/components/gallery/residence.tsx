@@ -29,10 +29,6 @@ const Residence = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -63,10 +59,6 @@ const Residence = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -97,10 +89,6 @@ const Residence = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -131,14 +119,10 @@ const Residence = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
-      
+
       <div className="group relative mb-4 before:content-[''] before:absolute before:inset-0 before:bg-black before:bg-opacity-20">
         <Image
           alt="random"
@@ -165,10 +149,6 @@ const Residence = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -199,10 +179,6 @@ const Residence = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -233,10 +209,6 @@ const Residence = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
@@ -267,10 +239,6 @@ const Residence = () => {
                 d="M12 4.5v15m7.5-7.5h-15"
               />
             </svg>
-
-            <p className="test__author font-sm font-medium  text-xl text-center">
-              Millau Media Library, France
-            </p>
           </div>
         </div>
       </div>
