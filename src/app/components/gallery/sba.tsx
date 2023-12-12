@@ -18,7 +18,7 @@ const Sba = () => {
 
   return (
     <div>
-      <div
+      {/* <div
         className="w-auto hover:scale-105 cursor-pointer duration-150 relative mb-4 before:content-[''] before:absolute before:inset-0 before:bg-black before:bg-opacity-20"
         onClick={() =>
           openModal(
@@ -35,7 +35,7 @@ const Sba = () => {
             "/assets/img/WebP Project Photos MFG/SBA HASNAOUI/IMG_8367 copy.webp"
           }
         ></Image>
-      </div>
+      </div> */}
 
       <div
         className="w-auto hover:scale-105 cursor-pointer duration-150 relative mb-4 before:content-[''] before:absolute before:inset-0 before:bg-black before:bg-opacity-20"
@@ -53,7 +53,7 @@ const Sba = () => {
           src={"/assets/img/WebP Project Photos MFG/SBA HASNAOUI/IMG_8367.webp"}
         ></Image>
       </div>
-
+{/* 
       <div
         className="w-auto hover:scale-105 cursor-pointer duration-150 relative mb-4 before:content-[''] before:absolute before:inset-0 before:bg-black before:bg-opacity-20"
         onClick={() =>
@@ -69,7 +69,7 @@ const Sba = () => {
           className="w-full"
           src={"/assets/img/WebP Project Photos MFG/SBA HASNAOUI/IMG_8369.webp"}
         ></Image>
-      </div>
+      </div> */}
 
       <div
         className="w-auto hover:scale-105 cursor-pointer duration-150 relative mb-4 before:content-[''] before:absolute before:inset-0 before:bg-black before:bg-opacity-20"
@@ -147,7 +147,7 @@ const Sba = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-1/5 transform overflow-hidden rounded-lg bg-tableBodyColor align-middle shadow-xl transition-all scale-150">
+                <Dialog.Panel className="w-3/5 md:w-2/5 transform overflow-hidden rounded-lg bg-tableBodyColor align-middle shadow-xl transition-all scale-150">
                   <Image
                     alt="random"
                     width={700}

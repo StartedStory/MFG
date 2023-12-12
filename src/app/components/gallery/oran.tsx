@@ -195,7 +195,7 @@ const Oran = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-1/5 transform overflow-hidden rounded-lg bg-tableBodyColor align-middle shadow-xl transition-all scale-150">
+                <Dialog.Panel className="w-3/5 md:w-2/5 transform overflow-hidden rounded-lg bg-tableBodyColor align-middle shadow-xl transition-all scale-150">
                   <Image
                     alt="random"
                     width={700}
