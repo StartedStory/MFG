@@ -99,7 +99,7 @@ export default function Stats() {
               tabNumber === 8 ? "text-cyan-500 text-xl" : ""
             }`}
           >
-            Universite de Medecine
+            <p className="w-full flex justify-start">Universite de Medecine</p>
           </button>
         </div>
 
