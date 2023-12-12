@@ -18,10 +18,10 @@ export default function Stats() {
   };
 
   return (
-    <div className="px-20 mx-auto bg-white py-12">
+    <div className="px-10 md:px-20 mx-auto bg-white py-12">
       <div className="px-10 w-full flex flex-col lg:mx-row">
         <div className="flex flex-col justify-center  w-full items-center pb-12">
-          <div className="mt-10 flex justify-center items-end gap-text-cyan-500 text-xl">
+          <div className="mt-10 flex justify-center items-end gap-text-cyan-500 text-lg">
             <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
             <h2 className="uppercase  font-bold">Our Key Projects</h2>
           </div>
@@ -40,39 +40,39 @@ export default function Stats() {
           <button
             onClick={() => tabClick(1)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 1 ? "text-cyan-500 text-xl" : ""
+              tabNumber === 1 ? "text-cyan-500 text-lg" : ""
             }`}
           >
-            <p className="w-full flex justify-start">Daira d&apos;Oran</p>
+            <p className="w-full flex justify-start">Oran</p>
           </button>
           <button
             onClick={() => tabClick(2)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 2 ? "text-cyan-500 text-xl" : ""
+              tabNumber === 2 ? "text-cyan-500 text-lg" : ""
             }`}
           >
-            <p className="w-full flex justify-start">Imprimerie le Bouquet</p>
+            <p className="w-full flex justify-start">Bouquet</p>
           </button>
           <button
             onClick={() => tabClick(3)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 3 ? "text-cyan-500 text-xl" : ""
+              tabNumber === 3 ? "text-cyan-500 text-lg" : ""
             }`}
           >
-            <p className="w-full flex justify-start">Ooredoo les pins</p>
+            <p className="w-full flex justify-start">Ooredoo</p>
           </button>
           <button
             onClick={() => tabClick(4)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 4 ? "text-cyan-500 text-xl" : ""
+              tabNumber === 4 ? "text-cyan-500 text-lg" : ""
             }`}
           >
-            <p className="w-full flex justify-start">ORAN - Sotexham</p>
+            <p className="w-full flex justify-start">Sotexham</p>
           </button>
           <button
             onClick={() => tabClick(5)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 5 ? "text-cyan-500 text-xl" : ""
+              tabNumber === 5 ? "text-cyan-500 text-lg" : ""
             }`}
           >
             <p className="w-full flex justify-start">Renault</p>
@@ -80,26 +80,26 @@ export default function Stats() {
           <button
             onClick={() => tabClick(6)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 6 ? "text-cyan-500 text-xl" : ""
+              tabNumber === 6 ? "text-cyan-500 text-lg" : ""
             }`}
           >
-            <p className="w-full flex justify-start">Residence Des Pins</p>
+            <p className="w-full flex justify-start">Residence</p>
           </button>
           <button
             onClick={() => tabClick(7)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 7 ? "text-cyan-500 text-xl" : ""
+              tabNumber === 7 ? "text-cyan-500 text-lg" : ""
             }`}
           >
-            <p className="w-full flex justify-start">Sba Hasnaoui</p>
+            <p className="w-full flex justify-start">Hasnaoui</p>
           </button>
           <button
             onClick={() => tabClick(8)}
             className={`flex-1 p-2 rounded-md transition-all ${
-              tabNumber === 8 ? "text-cyan-500 text-xl" : ""
+              tabNumber === 8 ? "text-cyan-500 text-lg" : ""
             }`}
           >
-            <p className="w-full flex justify-start">Universite de Medecine</p>
+            <p className="w-full flex justify-start">Universite</p>
           </button>
         </div>
 
