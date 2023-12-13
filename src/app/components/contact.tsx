@@ -60,7 +60,7 @@ export default function contact() {
               Contact details
             </h2>
 
-            <div id="address" className="flex items-center">
+            <div id="address" className="flex flex-col sm:flex sm:flex-row items-center">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-map-marker text-white"></i>
@@ -79,8 +79,7 @@ export default function contact() {
                 </a>
               </div>
             </div>
-
-            <div id="phone" className="flex items-center">
+            <div id="phone" className="flex flex-col sm:flex sm:flex-row items-center">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-phone text-white"></i>
@@ -99,7 +98,7 @@ export default function contact() {
                 </a>
               </div>
             </div>
-            <div id="phone" className="flex items-center">
+            <div id="phone" className="flex flex-col sm:flex sm:flex-row items-center">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-print text-white"></i>
@@ -117,7 +116,7 @@ export default function contact() {
                 </a>
               </div>
             </div>
-            <div id="commercial" className="flex items-center">
+            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
@@ -136,7 +135,7 @@ export default function contact() {
                 </a>
               </div>
             </div>
-            <div id="service" className="flex items-center">
+            <div id="service" className="flex flex-col sm:flex sm:flex-row items-center">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
@@ -162,7 +161,7 @@ export default function contact() {
                 </a>
               </div>
             </div>
-            <div id="commercial" className="flex items-center">
+            <div id="commercial" className="flex flex-col sm:flex sm:flex-row items-center">
               <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>

@@ -19,15 +19,15 @@ export default function Stats() {
 
   return (
     <div className="px-10 md:px-20 mx-auto bg-white py-12">
-      <div className="px-10 w-full flex flex-col lg:mx-row">
-        <div className="flex flex-col justify-center  w-full items-center pb-12">
-          <div className="mt-10 flex justify-center items-end gap-text-cyan-500 text-lg">
+      <div className="px-0 sm:px-10 w-full flex flex-col lg:mx-row">
+        <div className="flex flex-col justify-center w-full items-center pb-12">
+          <div className="mt-10 flex justify-center items-center sm:items-end gap-text-cyan-500 text-lg">
             <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
-            <h2 className="uppercase  font-bold">Our Key Projects</h2>
+            <h2 className="uppercase font-bold">Our Key Projects</h2>
           </div>
           <div
             id="text"
-            className="justify-center flex items-center text-center "
+            className="justify-center flex items-center text-center"
           >
             <h3 className="text-3xl max-w-sm font-bold">
               Our selected complete projects
