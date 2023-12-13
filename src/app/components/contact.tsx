@@ -15,9 +15,9 @@ export default function contact() {
             Let&apos;s connect
           </h3>
         </div>
-        <div className="grid gird-cols-1 lg:grid-cols-2 max-w-7xl mx-auto z-50">
-          <div id="form" className="m-12">
-            <h2 className="text-2xl mb-8 font-bold ">Send the message</h2>
+        <div className="flex flex-col lg:flex lg:flex-row max-w-7xl mx-auto z-50">
+          <div id="form" className="mx-12">
+            <h2 className="text-2xl mb-8 font-bold text-center sm:text-left">Send the message</h2>
             <form className="space-y-4">
               <input
                 name="name"
@@ -40,7 +40,7 @@ export default function contact() {
                 className="border hover:border-secondary focus:outline-none p-4 focus:border-secondary h-56 w-full border-gray-300 resize-none"
               ></textarea>
               {/* Button */}
-              <div className="mx-2 py-6">
+              <div className="mx-2 py-6 flex justify-center sm:justify-start">
                 <button className="group relative bg-secondary hover:bg-[#0e7ceb] py-3 px-6 text-white outline-none  focus:bg-secondary">
                   <span
                     className="absolute -start-2 -top-2 block h-5 w-5 border-s-4 border-t-4 border-secondary group-hover:border-[#0e7ceb] group-focus:border-[#0e7ceb]"
@@ -55,13 +55,13 @@ export default function contact() {
               </div>
             </form>
           </div>
-          <address id="details" className="mt-10 lg:mt-4 mx-12 space-y-8">
-            <h2 className="text-2xl mb-8 lg:mt-8 font-bold not-italic ">
+          <address id="details" className="mt-10 lg:mt-4 mx-2 sm:mx-12 space-y-8">
+            <h2 className="text-2xl text-center mb-8 lg:mt-8 font-bold not-italic ">
               Contact details
             </h2>
 
             <div id="address" className="flex items-center">
-              <div className="flex h-16 rounded-full w-16 justify-center items-center bg-secondary">
+              <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-map-marker text-white"></i>
                 </span>
@@ -81,7 +81,7 @@ export default function contact() {
             </div>
 
             <div id="phone" className="flex items-center">
-              <div className="flex h-16  rounded-full w-16 justify-center items-center bg-secondary">
+              <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-phone text-white"></i>
                 </span>
@@ -100,7 +100,7 @@ export default function contact() {
               </div>
             </div>
             <div id="phone" className="flex items-center">
-              <div className="flex h-16  rounded-full w-16 justify-center items-center bg-secondary">
+              <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-print text-white"></i>
                 </span>
@@ -118,7 +118,7 @@ export default function contact() {
               </div>
             </div>
             <div id="commercial" className="flex items-center">
-              <div className="flex h-16  rounded-full w-16 justify-center items-center bg-secondary">
+              <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
                 </span>
@@ -137,7 +137,7 @@ export default function contact() {
               </div>
             </div>
             <div id="service" className="flex items-center">
-              <div className="flex h-16  rounded-full w-16 justify-center items-center bg-secondary">
+              <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
                 </span>
@@ -163,7 +163,7 @@ export default function contact() {
               </div>
             </div>
             <div id="commercial" className="flex items-center">
-              <div className="flex h-16  rounded-full w-16 justify-center items-center bg-secondary">
+              <div className="flex h-16 rounded-full w-16 min-w-C64 justify-center items-center bg-secondary">
                 <span>
                   <i className="fa fa-2x fa-envelope text-white"></i>
                 </span>

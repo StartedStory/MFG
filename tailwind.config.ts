@@ -103,6 +103,9 @@ const config: Config = {
         "32": "32px",
         "60": "60px",
       },
+      minWidth: {
+        C64: "64px",
+      },
       maxWidth: {
         "275": "275px",
       },
