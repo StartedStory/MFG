@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col h-T400 sm:h-700 relative overflow-hidden">
       <div className="absolute z-20 h-T400 sm:h-700 w-full left-0 top-0 bg-cover bg-homeImg-one"></div>
-      <div className="absolute z-10 h-T400 w-full left-0 top-0 bg-cover bg-homeImg-two"></div>
+      <div className="absolute z-10 h-T400 sm:h-700 w-full left-0 top-0 bg-cover bg-homeImg-two"></div>
       <div className="mx-auto sm:max-w-7xl w-full h-96 py-12 md:py-32">
         <div className="absolute z-50 gap-8 px-8 sm:max-w-7xl mx-auto flex flex-col">
           <h1 className="text-white text-3xl sm:text-6xl max-w-sm sm:max-w-2xl font-bold">
