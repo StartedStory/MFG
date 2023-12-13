@@ -28,7 +28,7 @@ export default function Services() {
               height={400}
               width={578}
               alt="Ok"
-              className="h-96 w-auto object-cover relative"
+              className="h-96 w-auto object-cover relative mx-auto mt-0 sm:mt-12 md:mt-0"
             ></Image>
             <svg
               data-name="Layer 1"
@@ -64,7 +64,7 @@ export default function Services() {
               height={400}
               width={578}
               alt="Ok"
-              className="h-96 w-auto object-cover relative"
+              className="h-96 w-auto object-cover relative mx-auto mt-0 sm:mt-12 md:mt-0"
             ></Image>
 
             <svg
@@ -101,7 +101,7 @@ export default function Services() {
               height={400}
               width={578}
               alt="Ok"
-              className="h-96 w-auto object-cover relative"
+              className="h-96 w-auto object-cover relative mx-auto mt-0 sm:mt-12 md:mt-0"
             ></Image>
 
             <svg
@@ -138,7 +138,7 @@ export default function Services() {
               height={400}
               width={578}
               alt="Ok"
-              className="h-96 w-auto object-cover relative"
+              className="h-96 w-auto object-cover relative mx-auto mt-0 sm:mt-12 md:mt-0"
             ></Image>
             <svg
               data-name="Layer 1"
@@ -174,7 +174,7 @@ export default function Services() {
               height={400}
               width={578}
               alt="Ok"
-              className="h-96 w-auto object-cover relative"
+              className="h-96 w-auto object-cover relative mx-auto mt-0 sm:mt-12 md:mt-0"
             ></Image>
 
             <svg
@@ -211,7 +211,7 @@ export default function Services() {
               height={400}
               width={578}
               alt="Ok"
-              className="h-96 w-auto object-cover relative"
+              className="h-96 w-auto object-cover relative mx-auto mt-0 sm:mt-12 md:mt-0"
             ></Image>
 
             <svg

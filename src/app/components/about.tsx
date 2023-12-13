@@ -39,7 +39,7 @@ export default function About() {
   return (
     <div
       id="about-section"
-      className="grid mb-32 bg-white py-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-7xl mx-auto "
+      className="grid mb-10 lg:mb-32 bg-white py-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-7xl mx-auto"
     >
       {/* Text stuffs */}
       <div className="flex flex-col space-y-4 container w-full mx-auto">
