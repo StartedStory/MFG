@@ -11,9 +11,9 @@ export default function Oursite() {
         >
           <div
             id="text"
-            className=" space-y-3 items-center md:items-start flex flex-col"
+            className="space-y-3 items-center md:items-start flex flex-col"
           >
-            <div className="mt-10 flex items-end gap-3 text-white space-y-2 w-full ml-20">
+            <div className="mt-10 flex items-end gap-3 text-white space-y-2 w-full ml-0 sm:ml-20">
               <hr className="mb-1 border-b-2 border-[#0054a7] w-24"></hr>
               <h2 className="uppercase  font-bold">Our Site</h2>
             </div>
