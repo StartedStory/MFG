@@ -41,7 +41,7 @@ export default function Footer() {
             height={150}
             width={150}
             alt="Logo Footer"
-            src={"/assets/img/logo-petit.png"}
+            src={"/assets/img/Home/logo-petit.webp"}
           ></Image>
           <div className="space-y-3">
             <p className="">

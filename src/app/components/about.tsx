@@ -188,7 +188,7 @@ export default function About() {
       <div className="hidden md:flex relative p-6 w-56 transform  lg:w-full md:order-first flex-1 ">
         <div id="images" className=" w-full h-full justify-end">
           <Image
-            src="/assets/img/about2.png"
+            src="/assets/img/Home/about2.webp"
             alt="Building"
             width={300}
             height={300}
@@ -196,7 +196,7 @@ export default function About() {
           />
           <div>
             <Image
-              src="/assets/img/about1.png"
+              src="/assets/img/Home/about1.webp"
               alt="Building"
               width={300}
               height={300}
