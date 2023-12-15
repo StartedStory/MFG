@@ -53,7 +53,7 @@ const Distribution = () => {
         </div>
         <Image
           className="w-auto h-auto order-first lg:order-none"
-          src={"/assets/img/distribution/distribution_background.png"}
+          src={"/assets/img/AboutUs/distribution_background.webp"}
           alt="map MFG"
           height={600}
           width={350}

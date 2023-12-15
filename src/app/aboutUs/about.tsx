@@ -183,7 +183,7 @@ const About = () => {
         <div className="relative p-auto md:p-6 md:pl-0 transform lg:w-full order-first flex-1">
           <div id="images" className="w-full h-full justify-end ml-0 sm:ml-16 md:ml-0">
             <Image
-              src="/assets/img/about2.png"
+              src="/assets/img/Home/about2.webp"
               alt="Building"
               width={300}
               height={300}
@@ -191,7 +191,7 @@ const About = () => {
             />
             <div>
               <Image
-                src="/assets/img/about1.png"
+                src="/assets/img/Home/about1.webp"
                 alt="Building"
                 width={300}
                 height={300}

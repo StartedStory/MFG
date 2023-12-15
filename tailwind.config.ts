@@ -36,11 +36,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         contactImg: "url('/assets/img/backgroundContact.png')",
-        contactLandingImg: "url('/assets/img/service3.jpg')",
-        "about-landing": "url('/assets/img/about/landing.png')",
-        "tools-download": "url('/assets/img/ToolsAndDownload/office.jpg')",
+        contactLandingImg: "url('/assets/img/Home/service3.webp')",
+        "about-landing": "url('/assets/img/AboutUs/landing.webp')",
+        "tools-download": "url('/assets/img/ToolsAndDownload/office.webp')",
         "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
-        "states-landing": "url('/assets/img/states/states_background.png')",
+        "states-landing": "url('/assets/img/AboutUs/states_background.webp')",
         "technical-background":
           "url('https://mfg.dz/wp-content/uploads/2017/12/catalogueface.png')",
         "bim-background":
