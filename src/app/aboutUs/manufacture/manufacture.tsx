@@ -32,7 +32,7 @@ const Manufacture = () => {
       <div className="hidden lg:flex my-24 mx-44 relative">
         <Image
           className="w-auto h-auto mx-auto"
-          src={"/assets/img/manufacture/Mask_group.png"}
+          src={"/assets/img/AboutUs/manufacture/Mask_group.webp"}
           alt="Mobile MFG"
           height={600}
           width={350}
@@ -54,7 +54,7 @@ const Manufacture = () => {
         <div className="w-full">
           <Image
             className="w-auto h-auto"
-            src={"/assets/img/manufacture/Icon_1.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_1.webp"}
             alt="Image_one"
             height={600}
             width={350}
@@ -70,7 +70,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto ml-auto"
-            src={"/assets/img/manufacture/Icon_2.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_2.webp"}
             alt="Image_two"
             height={600}
             width={350}
@@ -86,7 +86,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto"
-            src={"/assets/img/manufacture/Icon_3.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_3.webp"}
             alt="Image_three"
             height={600}
             width={350}
@@ -102,7 +102,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto ml-auto"
-            src={"/assets/img/manufacture/Icon_4.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_4.webp"}
             alt="Image_four"
             height={600}
             width={350}
@@ -118,7 +118,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto"
-            src={"/assets/img/manufacture/Icon_5.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_5.webp"}
             alt="Image_five"
             height={600}
             width={350}
@@ -135,7 +135,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto ml-auto"
-            src={"/assets/img/manufacture/Icon_6.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_6.webp"}
             alt="Image_six"
             height={600}
             width={350}
@@ -153,7 +153,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto"
-            src={"/assets/img/manufacture/Icon_7.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_7.webp"}
             alt="Image_seven"
             height={600}
             width={350}
@@ -170,7 +170,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto ml-auto"
-            src={"/assets/img/manufacture/Icon_8.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_8.webp"}
             alt="Image_eight"
             height={600}
             width={350}
@@ -186,7 +186,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto"
-            src={"/assets/img/manufacture/Icon_9.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_9.webp"}
             alt="Image_nine"
             height={600}
             width={350}
@@ -202,7 +202,7 @@ const Manufacture = () => {
         <div className="w-full mt-12">
           <Image
             className="w-auto h-auto ml-auto"
-            src={"/assets/img/manufacture/Icon_10.png"}
+            src={"/assets/img/AboutUs/manufacture/Icon_10.webp"}
             alt="Image_ten"
             height={600}
             width={350}

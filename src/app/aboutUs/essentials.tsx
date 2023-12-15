@@ -13,7 +13,7 @@ const Essentials = () => {
               width={87}
               height={87}
               className="ml-0 2xl:ml-32 w-1/5 md:w-auto h-full"
-              src={"/assets/img/essentials/mission.png"}
+              src={"/assets/img/AboutUs/essentials/mission.webp"}
             ></Image>
             <div className="ml-5 w-full md:w-2/3">
               <div className="mt-5 md:mt-0 text-buttonColor text-center md:text-left font-Poppins text-2xl font-semibold leading-8">
@@ -33,7 +33,7 @@ const Essentials = () => {
               width={87}
               height={87}
               className="w-auto h-full"
-              src={"/assets/img/essentials/vision.png"}
+              src={"/assets/img/AboutUs/essentials/vision.webp"}
             ></Image>
             <div className="ml-5 w-full md:w-2/3">
               <div className="mt-5 md:mt-0 text-buttonColor text-center md:text-left font-Poppins text-2xl font-semibold leading-8">
@@ -52,7 +52,7 @@ const Essentials = () => {
               width={87}
               height={87}
               className="w-auto h-full ml-0 2xl:ml-32"
-              src={"/assets/img/essentials/values.png"}
+              src={"/assets/img/AboutUs/essentials/values.webp"}
             ></Image>
             <div className="ml-5 w-full md:w-2/3">
               <div className="mt-5 md:mt-0 text-buttonColor text-center md:text-left font-Poppins text-2xl font-semibold leading-8">
@@ -70,7 +70,7 @@ const Essentials = () => {
           width={100}
           height={100}
           className="w-auto md:w-1/3 xl:w-auto h-auto pt-36 2xl:pt-20 order-first md:order-none"
-          src={"/assets/img/essentials/Essential_2007.svg"}
+          src={"/assets/img/AboutUs/essentials/Essential_2007.svg"}
         ></Image>
       </div>
     </div>

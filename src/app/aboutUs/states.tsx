@@ -20,7 +20,7 @@ const States = () => {
           <div className="h-auto w-48 flex flex-col justify-center items-center text-center">
             <div className="h-auto w-16">
               <Image
-                src={"/assets/img/stats-deal.png"}
+                src={"/assets/img/Home/stats-deal.webp"}
                 alt="stats"
                 height={60}
                 width={70}
@@ -39,7 +39,7 @@ const States = () => {
           <div className="h-auto w-48 flex flex-col justify-center items-center text-center">
             <div className="h-auto w-16">
               <Image
-                src={"/assets/img/stats-awareness.png"}
+                src={"/assets/img/Home/stats-awareness.webp"}
                 alt="stats"
                 height={80}
                 width={80}
@@ -58,7 +58,7 @@ const States = () => {
           <div className="h-auto w-48 flex flex-col justify-center items-center text-center">
             <div className="h-auto w-16">
               <Image
-                src={"/assets/img/stats-glass.png"}
+                src={"/assets/img/Home/stats-glass.webp"}
                 alt="stats"
                 height={80}
                 width={80}
@@ -77,7 +77,7 @@ const States = () => {
           <div className="h-auto w-48 flex flex-col justify-center items-center text-center">
             <div className="h-auto w-16">
               <Image
-                src={"/assets/img/stats-support.png"}
+                src={"/assets/img/Home/stats-support.webp"}
                 alt="stats"
                 height={80}
                 width={80}
@@ -93,7 +93,7 @@ const States = () => {
           </div>
         </div>
       </div>
-      <div className="z-20 absolute backdrop-blur-sm backdrop-opacity-90  top-0 bg-black/80 h-S1000 sm:h-784 w-full"></div>
+      <div className="z-20 absolute backdrop-blur-sm backdrop-opacity-90 top-0 bg-black/80 h-S1000 sm:h-784 w-full"></div>
       <div className="z-10 h-S1000 sm:h-784 w-full left-0 top-0 absolute bg-cover bg-states-landing"></div>
     </div>
   );

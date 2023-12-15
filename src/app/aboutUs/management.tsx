@@ -8,14 +8,14 @@ const Management = () => {
           <div className="hidden sm:flex select-none">
             <Image
               className="w-auto h-auto"
-              src={"/assets/img/management/background.png"}
+              src={"/assets/img/AboutUs/management/background.webp"}
               alt="background"
               height={600}
               width={350}
             ></Image>
             <Image
               className="w-auto absolute bottom-0"
-              src={"/assets/img/management/builder.png"}
+              src={"/assets/img/AboutUs/management/builder.webp"}
               alt="builder"
               width={350}
               height={600}
@@ -25,7 +25,7 @@ const Management = () => {
             <div className="px-1 py-3 border-b-2 border-essentialBackground">
               <Image
                 className="w-auto mx-auto"
-                src={"/assets/img/management/ISO.png"}
+                src={"/assets/img/AboutUs/management/ISO.webp"}
                 alt="ISO"
                 width={200}
                 height={200}
@@ -37,7 +37,7 @@ const Management = () => {
             <div className="px-1 py-3 border-b-2 border-essentialBackground">
               <Image
                 className="w-auto mx-auto bg-white rounded-full"
-                src={"/assets/img/management/OHSAS.png"}
+                src={"/assets/img/AboutUs/management/OHSAS.webp"}
                 alt="ISO"
                 width={200}
                 height={200}
@@ -49,7 +49,7 @@ const Management = () => {
             <div className="p-5 h-1/3">
               <Image
                 className="w-auto mx-auto"
-                src={"/assets/img/management/OSHAS.png"}
+                src={"/assets/img/AboutUs/management/OSHAS.webp"}
                 alt="ISO"
                 width={200}
                 height={200}
