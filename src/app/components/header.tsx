@@ -44,7 +44,7 @@ export default function Header() {
       >
         <div className="flex items-center justify-between w-full">
           <Image
-            src="/assets/img/logo-petit.png"
+            src="/assets/img/Home/logo-petit.webp"
             alt="Mediterrnean Float Glass Logo"
             className="flex w-auto h-20 select-none"
             width={100}

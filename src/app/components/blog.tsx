@@ -21,7 +21,7 @@ export default function Blog() {
             alt="blog 1"
             height={300}
             width={400}
-            src={"/assets/img/blog/blog1.jpg"}
+            src={"/assets/img/Home/blog/blog1.webp"}
             className="h-[250px]"
           ></Image>
           <div className="flex flex-row w-full h-12 bg-gray-100 border-b border-l border-r justify-between px-5">
@@ -58,7 +58,7 @@ export default function Blog() {
             alt="blog 1"
             height={300}
             width={400}
-            src={"/assets/img/blog/blog2.jpg"}
+            src={"/assets/img/Home/blog/blog2.webp"}
             className="h-[250px]"
           ></Image>
           <div className="flex flex-row w-full h-12 bg-gray-100 border-b border-l border-r justify-between px-5">
@@ -73,7 +73,7 @@ export default function Blog() {
               </span>
             </div>
           </div>
-          <div className="flex flex-col w-full px-5  space-y-4">
+          <div className="flex flex-col w-full px-5 space-y-4">
             <h2 className="text-xl font-bold pt-4">
               MFG wins first prize for its innovative product “MEDICLEAN”
             </h2>
@@ -95,7 +95,7 @@ export default function Blog() {
             alt="blog 1"
             height={300}
             width={400}
-            src={"/assets/img/blog/blog3.jpg"}
+            src={"/assets/img/Home/blog/blog3.webp"}
             className="h-[250px]"
           ></Image>
           <div className="flex flex-row w-full h-12 bg-gray-100 border-b border-l border-r justify-between px-5">

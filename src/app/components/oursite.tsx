@@ -48,7 +48,7 @@ export default function Oursite() {
         <div id="mobile" className="z-20 select-none flex justify-center mt-0 mb-12 lg:my-12">
           <Image
             className="h-auto w-52 lg:w-80"
-            src={"/assets/img/mobile.png"}
+            src={"/assets/img/Home/mobile.webp"}
             alt="Mobile MFG"
             height={600}
             width={350}

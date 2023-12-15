@@ -48,9 +48,9 @@ const config: Config = {
         "footerImg-one": "url('/assets/img/footerBg.png')",
         "footerImg-two": "url('/assets/img/cta.png')",
         "homeImg-one": "url('/assets/img/layer1.png')",
-        "homeImg-two": "url('/assets/img/hero.png')",
-        "homeImg-three": "url('/assets/img/glass-windows.png')",
-        "homeImg-state": "url('/assets/img/cityservices.jpg')",
+        "homeImg-two": "url('/assets/img/Home/hero.webp')",
+        "homeImg-three": "url('/assets/img/Home/glass-windows.webp')",
+        "homeImg-state": "url('/assets/img/Home/cityservices.webp')",
       },
       marker: {
         long: {
