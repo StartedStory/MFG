@@ -12,7 +12,7 @@ const Essentials = () => {
               alt="random"
               width={87}
               height={87}
-              className="ml-0 2xl:ml-32 w-1/5 md:w-auto h-full"
+              className="w-auto h-full ml-0 2xl:ml-32"
               src={"/assets/img/AboutUs/essentials/mission.webp"}
             ></Image>
             <div className="ml-5 w-full md:w-2/3">

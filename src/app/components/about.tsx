@@ -39,10 +39,10 @@ export default function About() {
   return (
     <div
       id="about-section"
-      className="grid mb-10 lg:mb-32 bg-white py-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-7xl mx-auto"
+      className="grid bg-white px-7 xl:px-10 2xl:px-20 py-10 grid-rows-2 grid-cols-1 md:grid-cols-2 md:grid-rows-1 mx-auto"
     >
       {/* Text stuffs */}
-      <div className="flex flex-col space-y-4 container w-full mx-auto">
+      <div className="flex flex-col space-y-4 container mt-16 md:mt-0 ml-5 md:ml-6 lg:ml-10">
         <div className="mt-10 flex justify-center md:justify-start items-end gap-3 text-secondary">
           <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
           <h2 className="uppercase  font-bold">ABOUT US</h2>
@@ -217,18 +217,18 @@ export default function About() {
 
       <div className="flex flex-col sm:flex sm:flex-row relative md:hidden mx-12 gap-5 md:mx-0 justify-center">
         <Image
-          src="/assets/img/about2.png"
+          src="/assets/img/Home/about2.webp"
           alt="Building"
           width={300}
           height={300}
-          className="w-full sm:w-1/2 h-full"
+          className="w-full sm:w-1/2"
         />
         <Image
-          src="/assets/img/about1.png"
+          src="/assets/img/Home/about1.webp"
           alt="Building"
           width={300}
           height={300}
-          className="w-full sm:w-1/2 h-auto"
+          className="w-full sm:w-1/2"
         />
       </div>
     </div>
