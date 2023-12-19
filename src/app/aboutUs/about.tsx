@@ -43,7 +43,7 @@ const About = () => {
         className="grid bg-white px-7 xl:px-10 2xl:px-20 py-10 grid-rows-2 grid-cols-1 md:grid-cols-2 md:grid-rows-1 mx-auto"
       >
         {/* Text stuffs */}
-        <div className="flex flex-col space-y-4 container mt-16 md:mt-0 ml-5 md:ml-6 lg:ml-10">
+        <div className="flex flex-col space-y-4 container mt-16 md:mt-0 ml-0 md:ml-6 lg:ml-10">
           <div className="mt-2 flex justify-start items-end gap-3 text-secondary w-full">
             <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
             <h2 className="uppercase font-Poppins font-bold">ABOUT US</h2>
@@ -70,7 +70,6 @@ const About = () => {
           </div>
 
           {/* Features */}
-
           <div className="hidden lg:flex">
             <div className="flex justify-center items-center my-4 gap-5">
               <div className="">
@@ -179,15 +178,16 @@ const About = () => {
             </div>
           </div>
         </div>
+
         {/* Image section */}
-        <div className="relative p-auto md:p-6 md:pl-0 transform lg:w-full order-first flex-1">
-          <div id="images" className="w-full h-full justify-end ml-0 sm:ml-16 md:ml-0">
+        <div className="hidden md:flex relative p-6 w-56 transform lg:w-full md:order-first flex-1 ">
+          <div id="images" className=" w-full h-full justify-end">
             <Image
               src="/assets/img/Home/about2.webp"
               alt="Building"
               width={300}
               height={300}
-              className="absolute z-20"
+              className="absolute z-20 "
             />
             <div>
               <Image
@@ -195,7 +195,7 @@ const About = () => {
                 alt="Building"
                 width={300}
                 height={300}
-                className="absolute z-40 mx-40 my-40 md:mx-16 md:my-16 lg:mx-40 lg:my-40 w-72"
+                className="absolute z-40 mx-40 my-40 w-72 "
               />
               <div>
                 <Image
@@ -203,11 +203,28 @@ const About = () => {
                   alt="Building"
                   width={400}
                   height={400}
-                  className="absolute mx-28 mt-[14rem] md:mx-12 md:mt-[8rem] lg:mx-40 lg:my-40 w-80"
+                  className="absolute mx-28 mt-[13rem] w-80"
                 />
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="flex flex-col sm:flex sm:flex-row relative md:hidden mx-12 gap-5 md:mx-0 justify-center">
+          <Image
+            src="/assets/img/Home/about2.webp"
+            alt="Building"
+            width={300}
+            height={300}
+            className="w-full sm:w-1/2 h-auto md:h-full"
+          />
+          <Image
+            src="/assets/img/Home/about1.webp"
+            alt="Building"
+            width={300}
+            height={300}
+            className="w-full sm:w-1/2 h-auto md:h-full"
+          />
         </div>
       </div>
     </div>
