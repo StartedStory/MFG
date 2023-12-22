@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="flex flex-col items-center relative mt-60">
       <div className="absolute z-0 h-full w-full left-0 top-0  bg-cover bg-footerImg-one"></div>
-      <div className="-mt-24 z-50 w-full absolute left-0 top-0  bg-cover bg-footerImg-two md:max-w-5xl lg:max-w-7xl mx-auto lg:left-auto">
+      <div className="-mt-72 sm:-mt-24 z-50 w-full absolute left-0 top-0 bg-cover bg-footerImg-two md:max-w-5xl lg:max-w-7xl mx-auto lg:left-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 py-10 gap-10">
           <div className="flex flex-col w-full  px-20 space-y-4">
             <span className="text-white text-4xl font-bold">
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="z-10  mt-52 lg:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-auto max-w-7xl p-20 lg:pt-60 gap-8">
+      <div className="z-10 mt-52 lg:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-auto max-w-7xl p-20 pt-40 lg:pt-60 gap-8">
         <div id="brand" className="flex flex-col gap-6 text-white">
           <Link href="/">
             <Image
