@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="flex flex-col items-center relative mt-60">
       <div className="absolute z-0 h-full w-full left-0 top-0  bg-cover bg-footerImg-one"></div>
-      <div className="-mt-24 z-50 w-full absolute left-0 top-0  bg-cover bg-footerImg-two md:max-w-5xl lg:max-w-7xl mx-auto lg:left-auto">
+      <div className="-mt-72 sm:-mt-24 z-50 w-full absolute left-0 top-0 bg-cover bg-footerImg-two md:max-w-5xl lg:max-w-7xl mx-auto lg:left-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 py-10 gap-10">
           <div className="flex flex-col w-full  px-20 space-y-4">
             <span className="text-white text-4xl font-bold">
@@ -55,18 +55,30 @@ const Footer = () => {
               </div>
               <input type="hidden" name="list" value="7cYUlEQyuxtKv0Fkv2BvMA" />
               <input type="hidden" name="subform" value="yes" />
-              <input
-                type="submit"
-                name="submit"
-                id="submit"
-                className="mt-5 sm:mt-0 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              />
+              <div className="mx-2 self-start ml-10 md:ml-2">
+                <button
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  className="group relative bg-[#0054a7] hover:bg-primary py-3 px-6 text-white outline-none  focus:bg-[#0054a7]"
+                >
+                  <span
+                    className="absolute -start-2 -top-2 block h-5 w-5 border-s-4 border-t-4 border-[#0054a7] group-hover:border-primary group-focus:border-primary"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="uppercase font-bold">Submit</span>
+                  <span
+                    className="absolute -bottom-2 -end-2 block h-5 w-5 rotate-180 border-s-4 border-t-4 border-[#0054a7] group-hover:border-primary group-focus:border-[#0054a7]"
+                    aria-hidden="true"
+                  ></span>
+                </button>
+              </div>
             </form>
           </div>
         </div>
       </div>
 
-      <div className="z-10  mt-52 lg:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-auto max-w-7xl p-20 lg:pt-60 gap-8">
+      <div className="z-10 mt-52 lg:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-auto max-w-7xl p-20 pt-40 lg:pt-60 gap-8">
         <div id="brand" className="flex flex-col gap-6 text-white">
           <Link href="/">
             <Image
