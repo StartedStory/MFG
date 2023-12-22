@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -36,13 +37,15 @@ const Footer = () => {
 
       <div className="z-10  mt-52 lg:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-auto max-w-7xl p-20 lg:pt-60 gap-8">
         <div id="brand" className="flex flex-col gap-6 text-white">
-          <Image
-            className="w-32 h-20"
-            height={150}
-            width={150}
-            alt="Logo Footer"
-            src={"/assets/img/Home/logo-petit.webp"}
-          ></Image>
+          <Link href="/">
+            <Image
+              className="w-24 h-20"
+              height={150}
+              width={150}
+              alt="Logo Footer"
+              src={"/assets/img/Home/logo-petit.webp"}
+            ></Image>
+          </Link>
           <div className="space-y-3">
             <p className="">
               World quality glass. Export 70%, Europe, Tunisia, Africa. ISO
@@ -67,13 +70,23 @@ const Footer = () => {
             <div className=" border-b-2 border-primary w-8 pb-3 mb-4"></div>
           </div>
           <ul className="font-semibold text-white">
-            <li>Welcome</li>
-            <li>Our society</li>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/aboutUs">About us</Link>
+            </li>
             <li>Our Products</li>
-            <li>News</li>
-            <li>Tools and download</li>
+            <li>
+              <Link href="/blog">News</Link>
+            </li>
+            <li>
+              <Link href="/ToolsAndDownload">Tools and download</Link>
+            </li>
             <li>Career</li>
-            <li>Contact</li>
+            <li>
+              <Link href="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
         <div id="footer-menu-2" className="md:px-5">
