@@ -55,12 +55,24 @@ const Footer = () => {
               </div>
               <input type="hidden" name="list" value="7cYUlEQyuxtKv0Fkv2BvMA" />
               <input type="hidden" name="subform" value="yes" />
-              <input
-                type="submit"
-                name="submit"
-                id="submit"
-                className="mt-5 sm:mt-0 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              />
+              <div className="mx-2 self-start ml-10 md:ml-2">
+                <button
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  className="group relative bg-[#0054a7] hover:bg-primary py-3 px-6 text-white outline-none  focus:bg-[#0054a7]"
+                >
+                  <span
+                    className="absolute -start-2 -top-2 block h-5 w-5 border-s-4 border-t-4 border-[#0054a7] group-hover:border-primary group-focus:border-primary"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="uppercase font-bold">Submit</span>
+                  <span
+                    className="absolute -bottom-2 -end-2 block h-5 w-5 rotate-180 border-s-4 border-t-4 border-[#0054a7] group-hover:border-primary group-focus:border-[#0054a7]"
+                    aria-hidden="true"
+                  ></span>
+                </button>
+              </div>
             </form>
           </div>
         </div>
