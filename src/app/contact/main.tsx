@@ -36,6 +36,7 @@ const Main = () => {
               </label>
               <input
                 type="text"
+                name="firstName"
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="firstName"
               />
@@ -49,6 +50,7 @@ const Main = () => {
               </label>
               <input
                 type="text"
+                name="lastName"
                 id="lastName"
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               />
@@ -64,6 +66,7 @@ const Main = () => {
               </label>
               <input
                 type="email"
+                name="email"
                 className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="email"
               />
@@ -84,18 +87,20 @@ const Main = () => {
               />
             </div>
           </div>
+          <input type="hidden" name="list" value="7cYUlEQyuxtKv0Fkv2BvMA" />
+          <input type="hidden" name="subform" value="yes" />
           <div className="flex items-center justify-between flex-wrap px-3">
             <ReCAPTCHA
               sitekey={process.env.siteKey}
               ref={recaptchaRef}
               onChange={handleCaptchaSubmission}
             />
-            <button
-              type="button"
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
               className="mt-5 sm:mt-0 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Submit
-            </button>
+            />
           </div>
         </form>
       </div>

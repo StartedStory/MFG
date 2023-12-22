@@ -18,18 +18,49 @@ const Footer = () => {
           </div>
 
           <div className="inline-flex flex-col lg:self-center px-20">
-            <form className="flex w-full" action={""}>
+            <form
+              action="https://send.hostarts.net/subscribe"
+              method="POST"
+              accept-charset="utf-8"
+            >
+              <label
+                htmlFor="name"
+                className="block uppercase tracking-wide text-white text-xs font-bold mb-1"
+              >
+                Name
+              </label>
               <input
-                placeholder="Enter Your Email"
                 type="text"
-                autoComplete="email"
-                className="py-2 focus:outline-none px-4 w-full"
-              ></input>
+                name="name"
+                id="name"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              />
+              <label
+                htmlFor="email"
+                className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
+              >
+                Email
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              />
+              <br />
+              <div className="hidden">
+                <label htmlFor="hp">HP</label>
+                <br />
+                <input type="text" name="hp" id="hp" />
+              </div>
+              <input type="hidden" name="list" value="7cYUlEQyuxtKv0Fkv2BvMA" />
+              <input type="hidden" name="subform" value="yes" />
               <input
                 type="submit"
-                className="py-2 bg-secondary px-4 text-white"
-                value={"Subscribe"}
-              ></input>
+                name="submit"
+                id="submit"
+                className="mt-5 sm:mt-0 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              />
             </form>
           </div>
         </div>
