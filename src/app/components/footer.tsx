@@ -60,7 +60,7 @@ export default function Footer() {
                   type="submit"
                   name="submit"
                   id="submit"
-                  className="group relative bg-[#0054a7] hover:bg-primary py-3 px-6 text-white outline-none  focus:bg-[#0054a7]"
+                  className="group relative bg-[#0054a7] hover:bg-[#0054a7]/70 py-3 px-6 text-white outline-none  focus:bg-[#0054a7]"
                 >
                   <span
                     className="absolute -start-2 -top-2 block h-5 w-5 border-s-4 border-t-4 border-[#0054a7] group-hover:border-primary group-focus:border-primary"

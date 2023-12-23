@@ -5,7 +5,7 @@ import "../bg.css";
 
 const Production = () => {
   return (
-    <div className="flex-col w-full bg-white items-center justify-center flex">
+    <div className="flex-col w-full bg-white items-center justify-center flex mt-0 xl:mt-16">
       <div className="flex flex-col space-y-4  text-center justify-center">
         <div className="mt-10  flex items-end gap-3 text-secondary justify-center">
           <hr className="mb-1 border-b-2 border-secondary w-24"></hr>
