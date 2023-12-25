@@ -15,13 +15,13 @@ const ToolsAndDownload = () => {
       <Header />
       <Hero />
       <div className="overflow-y-auto h-554">
-        <SolarControl />
-        <ThermalInsulation />
-        <Security />
-        <ReflectiveLenses />
-        <TechnicalCatalog />
-        <Bim />
-        <Certifications />
+        <SolarControl bookmarksId="toolsSection1" />
+        <ThermalInsulation bookmarksId="toolsSection2" />
+        <Security bookmarksId="toolsSection3" />
+        <ReflectiveLenses bookmarksId="toolsSection4" />
+        <TechnicalCatalog bookmarksId="toolsSection5" />
+        <Bim bookmarksId="toolsSection6" />
+        <Certifications bookmarksId="toolsSection7" />
       </div>
       <Footer />
     </div>

@@ -21,7 +21,7 @@ const Footer = () => {
             <form
               action="https://send.hostarts.net/subscribe"
               method="POST"
-              accept-charset="utf-8"
+              acceptCharset="utf-8"
             >
               <label
                 htmlFor="name"
