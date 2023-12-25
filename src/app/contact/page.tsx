@@ -1,7 +1,9 @@
 import Header from "../components/header";
 import Landing from "./landing";
 import Main from "./main";
-import Footer from "../components/footer";
+import Map from "../aboutUs/map";
+import Faq from "./faq";
+import Footer from "./footer";
 
 const Contact = () => {
   return (
@@ -9,6 +11,8 @@ const Contact = () => {
       <Header />
       <Landing />
       <Main />
+      <Map />
+      <Faq />
       <Footer />
     </div>
   );

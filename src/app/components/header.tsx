@@ -13,13 +13,13 @@ function classNames(...classes: string[]) {
 
 export default function Header() {
   const toolsMenuItems = [
-    {title: "SOLAR CONTROL", link: '#toolsSection1'},
-    {title: "THERMAL INSULATION", link: '#toolsSection2'},
-    {title: "SECURITY", link: '#toolsSection3'},
-    {title: "REFLECTIVE LENSES", link: '#toolsSection4'},
-    {title: "TECHNICAL CATALOG", link: '#toolsSection5'},
-    {title: "BIM", link: '#toolsSection6'},
-    {title: "CERTIFICATIONS", link: '#toolsSection7'},
+    {title: "SOLAR CONTROL", link: 'ToolsAndDownload#toolsSection1'},
+    {title: "THERMAL INSULATION", link: 'ToolsAndDownload#toolsSection2'},
+    {title: "SECURITY", link: 'ToolsAndDownload#toolsSection3'},
+    {title: "REFLECTIVE LENSES", link: 'ToolsAndDownload#toolsSection4'},
+    {title: "TECHNICAL CATALOG", link: 'ToolsAndDownload#toolsSection5'},
+    {title: "BIM", link: 'ToolsAndDownload#toolsSection6'},
+    {title: "CERTIFICATIONS", link: 'ToolsAndDownload#toolsSection7'},
   ];
   return (
     <header>

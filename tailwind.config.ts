@@ -35,8 +35,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        contactImg: "url('/assets/img/backgroundContact.png')",
-        contactLandingImg: "url('/assets/img/Home/service3.webp')",
+        "contactImg": "url('/assets/img/backgroundContact.png')",
+        "contactLandingImg": "url('/assets/img/ContactUs.png')",
         "about-landing": "url('/assets/img/AboutUs/landing.webp')",
         "tools-download": "url('/assets/img/ToolsAndDownload/office.webp')",
         "essential-landing": "url('/assets/img/essentials/Mask_group.png')",
@@ -67,6 +67,7 @@ const config: Config = {
         managementHeight: "60.5px",
       },
       margin: {
+        "320": "320px",
         "165": "165px",
         "160": "160px",
         "150": "150px",

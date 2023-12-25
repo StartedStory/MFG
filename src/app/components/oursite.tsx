@@ -65,7 +65,7 @@ export default function Oursite() {
           height="1357px"
         >
           <path
-            fill-rule="evenodd"
+            fillRule="evenodd"
             opacity="0.851"
             fill="rgb(0, 176, 240)"
             d="M1808.934,0.501 L2588.437,285.678 L788.745,1356.512 L0.382,1052.585 L1808.934,0.501 Z"
