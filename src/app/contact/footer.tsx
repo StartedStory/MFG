@@ -37,7 +37,7 @@ export default function Footer() {
                 id="submit"
                 className="lg:col-start-9 lg:col-end-13 font-Poppins text-lg font-normal relative bg-[#0054a7] hover:bg-[#0054a7]/70 py-3 px-6 lg:px-4 lg:mt-0 mt-4 text-white outline-none  focus:bg-[#0054a7]"
               >
-                S'ABONNER
+                S&apos;ABONNER
               </button>
             </form>
           </div>
