@@ -23,6 +23,30 @@ const Faq = () => {
       question: "Is there a Warranty on MFG glass products?",
       answer: "",
     },
+    {
+      question: "How does MFG ensure the quality of its products?",
+      answer: "",
+    },
+    {
+      question: "Wholesale pricing for MFG products??",
+      answer: "",
+    },
+    {
+      question: "Are Customization options available for  glass products?",
+      answer: "",
+    },
+    {
+      question: "What is MFG's commitment to sustainability?",
+      answer: "",
+    },
+    {
+      question: "What is the Ordering process for MFG products?",
+      answer: "",
+    },
+    {
+      question: "Industries using MFG's glass products?",
+      answer: "",
+    },
   ];
   return (
     <div id="contact-wrapper" className="z-50 py-20 sm:mb-20 relative">
