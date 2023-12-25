@@ -12,6 +12,7 @@
   "dependencies": {
     "@cosmicjs/sdk": "^1.0.10",
     "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.1.1",
     "@react-google-maps/api": "^2.19.2",
     "axios": "^1.6.2",
     "gray-matter": "^4.0.3",

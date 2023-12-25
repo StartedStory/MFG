@@ -50,7 +50,7 @@ export default function Services() {
               hospital. I&apos;m sorry.
             </p>
             <a
-              href=""
+              href="#"
               className="hover:text-white  text-lg transition-all easy-in hover:transform hover:scale-125"
             >
               Read More <span className="">→</span>
@@ -87,7 +87,7 @@ export default function Services() {
               hospital. I&apos;m sorry.
             </p>
             <a
-              href=""
+              href="#"
               className="hover:text-white  text-lg transition-all easy-in hover:transform hover:scale-125"
             >
               Read More <span className="">→</span>
@@ -124,7 +124,7 @@ export default function Services() {
               hospital. I&apos;m sorry.
             </p>
             <a
-              href=""
+              href="#"
               className="hover:text-white  text-lg transition-all easy-in hover:transform hover:scale-125"
             >
               Read More <span className="">→</span>
@@ -160,7 +160,7 @@ export default function Services() {
               hospital. I&apos;m sorry.
             </p>
             <a
-              href=""
+              href="#"
               className="hover:text-white  text-lg transition-all easy-in hover:transform hover:scale-125"
             >
               Read More <span className="">→</span>
@@ -197,7 +197,7 @@ export default function Services() {
               hospital. I&apos;m sorry.
             </p>
             <a
-              href=""
+              href="#"
               className="hover:text-white  text-lg transition-all easy-in hover:transform hover:scale-125"
             >
               Read More <span className="">→</span>
@@ -234,7 +234,7 @@ export default function Services() {
               hospital. I&apos;m sorry.
             </p>
             <a
-              href=""
+              href="#"
               className="hover:text-white  text-lg transition-all easy-in hover:transform hover:scale-125"
             >
               Read More <span className="">→</span>
